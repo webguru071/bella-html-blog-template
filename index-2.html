@@ -64,8 +64,8 @@
 	<!--  Top Header End-->
 
 	<!-- navber start-->
-	<header id="nav-menu-one">
-		<nav class="navbar navbar-expand-sm">
+		  <header id="top-heder-nav">
+		<nav class="navbar navbar-expand-lg">
 			<div class="container">
 				<a class="navbar-brand" href="index.html">
 					<img src="assets/img/logo.png" alt="">
@@ -74,43 +74,51 @@
 					<span><i class="fas fa-bars"></i></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarResponsive">
-					<ul class="navbar-nav header__nav">
-						<li class="nav-item">
-							<a class="nav-link active" href="index.html">Home</a>
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item dropdown">
+							<a class="nav-link  active" href="#">Home</a>
+							
+							<div class="dropdown-content">
+								<a href="index.html">Home 01</a>
+								<a href="index-2.html" class="active-2">Home 02</a>
+								<a href="index-3.html">Home 03</a>
+								<a href="index-4.html">Home 04</a>
+								<a href="index-5.html">Home 05</a>
+								<a href="index-6.html">Home 06</a>
+							</div>
 						</li>
-						<li class="nav-item has-children">
+						<li class="nav-item dropdown">
 							<a class="nav-link " href="#">Post Types</a>
-							<ul class="sub-menu">
-								<li><a href="tour-packages.html">Tour-Packages</a></li>
-								<li><a href="tour-details.html">Tour-Details</a></li>
-								<li><a href="tour-details.html">Tour-Details</a></li>
-								<li><a href="tour-details.html">Tour-Details</a></li>
-								<li><a href="tour-details.html">Tour-Details</a></li>
-							</ul>
-						</li>
-						<li class="nav-item has-children">
-							<a class="nav-link" href="service.html">Pages</a>
-							<ul class="sub-menu">
-								<li><a href="single-video.html">Video Post</a></li>
-								<li><a href="single-audio.html">Audio Post</a></li>
-								<li><a href="single-gallery.html">Gallery Post</a></li>
-								<li class="has-children"><a href="single-standard.html">Standard Post</a>
-									<ul class="sub-menu">
-										<li><a href="single-video.html">Video Post</a></li>
-										<li><a href="single-audio.html">Audio Post</a></li>
-										<li><a href="single-gallery.html">Gallery Post</a></li>
-									</ul>
-								</li>
-							</ul>
+							<div class="dropdown-content">
+								<a href="tour-packages.html">Tour-Packages</a>
+								<a href="tour-details.html">Tour-Details</a>
+							</div>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="gallery.html">Catagories </a>
+							<a class="nav-link" href="service.html">Catagories</a>
 						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="gallery.html">Tips & Tricks </a>
+						
+						<li class="nav-item dropdown">
+							<a class="nav-link" href="#">Tips & Tricks</a>
+							
+							<div class="dropdown-content">
+								<a href="blog.html">Blog-Classic</a>
+								<a href="blog-single.html">Blog-single</a>
+							</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link" href="#">Pages</a>
+							
+							<div class="dropdown-content">
+								<a href="about.html">About</a>
+								<a href="faq.html">Faqs</a>
+								<a href="contact.html">Contact</a>
+								<a href="404.html">404 page</a>
+							</div>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="gallery.html">Contact </a>
+							
 						</li>
 					</ul>
 				</div>

@@ -309,5 +309,64 @@ autoplayHoverPause:true,
  			}	
  		}
  	});	
+	/*------------------------------------------------------------
+    *        Home-5 downslider
+    * ------------------------------------------------------ */
 	
+	
+	
+	$('.blog-five-wedget-slider').owlCarousel({
+ 		loop: true,
+ 		margin: 10,
+		 dots:true,
+		nav:false,
+		autoplay:true,
+autoplayTimeout:10000,
+autoplayHoverPause:true,
+		responsive: {
+ 			0: {
+ 				items: 1
+ 			},
+			360:{
+				items: 1
+			},
+ 			600: {
+ 				items:1
+ 			},
+ 			1000: { 
+ 				items: 2
+ 			}	
+ 		}
+ 	});	
+	/*------------------------------------------------------------
+    *        Home-4 slider
+    * ------------------------------------------------------ */
+	
+	
+	
+	$('.arrow-slider-wrapper').owlCarousel({
+ 		loop: true,
+ 		margin: 30,
+		 dots:true,
+		nav:false,
+		autoplay:true,
+autoplayTimeout:10000,
+autoplayHoverPause:true,
+		responsive: {
+ 			0: {
+ 				items: 1
+ 			},
+			360:{
+				items: 1
+			},
+ 			600: {
+ 				items:1
+ 			},
+ 			1000: { 
+ 				items: 3
+ 			}	
+ 		}
+ 	});	
+	
+
 	})(jQuery); 

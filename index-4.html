@@ -30,12 +30,42 @@
 	<!-- responsive.css-->
 	<link rel="stylesheet" href="assets/css/responsive.css">
 </head>
- 
-<body >
-
+<body id="body-four"> 
+<!--  Top Header Start-->
+	<div class="top-header">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+			        <div class="top-mail">
+			           <p><i class="far fa-envelope"></i>Email:<a href="mailto:andimpes@gmail.com"> andimpex@gmail.com</a></p>
+			        </div>
+				</div>
+				<div class="col-lg-6">
+					<div class="top-social-icon">
+						<ul class="top-icon">
+							<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fas fa-rss"></i></a></li>
+							<li><a href="#"><i class="fab fa-tumblr"></i></a></li>
+							<li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+							<li><a href="#search"><i class="fas fa-search"></i></a></li>
+						</ul>
+					</div>
+					<div id="search">
+						<button type="button" class="close">×</button>
+						<form>
+							<input type="search" value="" placeholder="type keyword(s) here" />
+							<button type="submit" class="btn btn-primary">Search</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--  Top Header End-->
 	<!-- navber start-->
-	<header id="nav-menu-four">
-		<nav class="navbar navbar-expand-sm">
+   <header id="top-heder-nav">
+		<nav class="navbar navbar-expand-lg">
 			<div class="container">
 				<a class="navbar-brand" href="index.html">
 					<img src="assets/img/logo.png" alt="">
@@ -44,499 +74,970 @@
 					<span><i class="fas fa-bars"></i></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarResponsive">
-					<ul class="navbar-nav header__nav">
-						<li class="nav-item">
-							<a class="nav-link active" href="index.html">Home</a>
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item dropdown">
+							<a class="nav-link  active" href="#">Home</a>
+							
+							<div class="dropdown-content">
+								<a href="index.html">Home 01</a>
+								<a href="index-2.html">Home 02</a>
+								<a href="index-3.html">Home 03</a>
+								<a href="index-4.html" class="active-2">Home 04</a>
+								<a href="index-5.html">Home 05</a>
+								<a href="index-6.html">Home 06</a>
+							</div>
 						</li>
-						<li class="nav-item has-children">
+						<li class="nav-item dropdown">
 							<a class="nav-link " href="#">Post Types</a>
-							<ul class="sub-menu">
-								<li><a href="tour-packages.html">Tour-Packages</a></li>
-								<li><a href="tour-details.html">Tour-Details</a></li>
-								<li><a href="tour-details.html">Tour-Details</a></li>
-								<li><a href="tour-details.html">Tour-Details</a></li>
-								<li><a href="tour-details.html">Tour-Details</a></li>
-							</ul>
-						</li>
-						<li class="nav-item has-children">
-							<a class="nav-link" href="service.html">Pages</a>
-							<ul class="sub-menu">
-								<li><a href="single-video.html">Video Post</a></li>
-								<li><a href="single-audio.html">Audio Post</a></li>
-								<li><a href="single-gallery.html">Gallery Post</a></li>
-								<li class="has-children"><a href="single-standard.html">Standard Post</a>
-									<ul class="sub-menu">
-										<li><a href="single-video.html">Video Post</a></li>
-										<li><a href="single-audio.html">Audio Post</a></li>
-										<li><a href="single-gallery.html">Gallery Post</a></li>
-									</ul>
-								</li>
-							</ul>
+							<div class="dropdown-content">
+								<a href="tour-packages.html">Tour-Packages</a>
+								<a href="tour-details.html">Tour-Details</a>
+							</div>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="gallery.html">Catagories </a>
+							<a class="nav-link" href="service.html">Catagories</a>
 						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="gallery.html">Tips & Tricks </a>
+						
+						<li class="nav-item dropdown">
+							<a class="nav-link" href="#">Tips & Tricks</a>
+							
+							<div class="dropdown-content">
+								<a href="blog.html">Blog-Classic</a>
+								<a href="blog-single.html">Blog-single</a>
+							</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link" href="#">Pages</a>
+							
+							<div class="dropdown-content">
+								<a href="about.html">About</a>
+								<a href="faq.html">Faqs</a>
+								<a href="contact.html">Contact</a>
+								<a href="404.html">404 page</a>
+							</div>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="gallery.html">Contact </a>
+							
 						</li>
 					</ul>
-										<div class="top-social-icon">
-						<ul class="top-icon">
-							<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-							<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-							<li><a href="#"><i class="fas fa-rss"></i></a></li>
-							<li><a href="#"><i class="fab fa-tumblr"></i></a></li>
-							<li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-						</ul>
-					</div>
 				</div>
 			</div>
 		</nav>
 	</header>
 	<!-- navber end-->
-	<!--Blog-banner start-->
-	<section id="blog-banner-4">
-		<div class="blog-banner-slider-4 owl-carousel owl-theme">
-			<div class="banner-slider-item">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-8">
-							<div class="slider-content-items">
-								<a href="#" class="sports">Sports</a>
-								<h2>How did van gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?</h2>
-								<a href="#" class="arrow-btn">Continue reading<i class="fas fa-arrow-right"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="banner-slider-item">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-8">
-							<div class="slider-content-items">
-								<a href="#" class="sports">Sports</a>
-								<h2>How did van gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?</h2>
-								<a href="#" class="arrow-btn">Continue reading<i class="fas fa-arrow-right"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="banner-slider-item">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-8">
-							<div class="slider-content-items">
-								<a href="#" class="sports">Sports</a>
-								<h2>How did van gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?</h2>
-								<a href="#" class="arrow-btn">Continue reading<i class="fas fa-arrow-right"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--Blog-banner end-->
 	
-	<!--Blog-two-banner-start-->
-	
-	<section id="logo-all-wrapper">
+	<!--top-wedget start-->
+	<section id="top-ewdget-four">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
-					<div class="logo-wrapper-flex">
-					<div class="logo-wrapper">
-						<a href="#"><img src="assets/img/logo/1.png" alt="logo"></a>
+					<div class="trande-news">
+						<a href="#" class="blog-folder tran-news">TRENDING NOW</a>
+						<h4><a href="#">Check Out New Trendy Smart Phones in Next Decade</a></h4>
 					</div>
-					<div class="logo-wrapper">
-						<a href="#"><img src="assets/img/logo/2.png" alt="logo"></a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="blog-wedget-four-wrapper">
+						<div class="blog-wedget-four-items margin-top-30">
+							<img src="assets/img/home-4-blog-img/1.png" alt="img">
+							<div class="all-folder-blog">
+								<a href="#" class="blog-folder">entertainment</a>
+								<div class="all-deails-four-blog">
+									<h4><a href="#">the top 10 music albums of the 2019</a></h4>
+									<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit  aliquet.</p>
+									<ul>
+										<li>BY:<a href="#"> Jhon Doe</a></li>
+										<li><a href="#">September 11, 2019</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
 					</div>
-					<div class="logo-wrapper">
-						<a href="#"><img src="assets/img/logo/3.png" alt="logo"></a>
-					</div>
-					<div class="logo-wrapperr">
-						<a href="#"><img src="assets/img/logo/1.png" alt="logo"></a>
-					</div>
-					<div class="logo-wrapper">
-						<a href="#"><img src="assets/img/logo/2.png" alt="logo"></a>
-					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="blog-side-wedget-arrow margin-top-30">
+								<img src="assets/img/home-4-blog-img/2.png" alt="img">
+								<a href="#" class="blog-folder tag-arow">travel</a>
+								<div class="details-wedget-arrow">
+									<h4><a href="#">top 10 places to go to in this summer</a></h4>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="blog-side-wedget-arrow margin-top-30">
+								<img src="assets/img/home-4-blog-img/3.png" alt="img">
+								<a href="#" class="blog-folder tag-arow">travel</a>
+								<div class="details-wedget-arrow">
+									<h4><a href="#">top 10 places to go to in this summer</a></h4>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="blog-side-wedget-arrow margin-top-30">
+								<img src="assets/img/home-4-blog-img/4.png" alt="img">
+								<a href="#" class="blog-folder tag-arow">travel</a>
+								<div class="details-wedget-arrow">
+									<h4><a href="#">top 10 places to go to in this summer</a></h4>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="blog-side-wedget-arrow margin-top-30">
+								<img src="assets/img/home-4-blog-img/5.png" alt="img">
+								<a href="#" class="blog-folder tag-arow">travel</a>
+								<div class="details-wedget-arrow">
+									<h4><a href="#">top 10 places to go to in this summer</a></h4>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
+	<!--top-wedget end-->
 	
-	<!--Blog-two-banner-end-->
-	
-	<!--Blog-four-slider-down-start-->
-	<section id="main-content-home-four">
+	<!--secend-top-wedget start-->
+	<section id="slider-arrow-wedget">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-10 offset-lg-1">
-				<div class="slider-back-img">
-					<img src="assets/img/blog-banner/slider-back.png" alt="img">
-				</div>
-					<div class="down-slider-wrapper owl-carousel owl-theme">
-						<div class="down-slider-item">
-							<div class="row">
-								<div class="col-lg-6">
-									<div class="slider-text">
-										<h4>Fashion</h4>
-										<h2>Fashion Model Shoot</h2>
-										<p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitdin, lorem quis bibendum auctor, nisi elit consequat de .</p>
-										<a href="#" class="btn btn-theme padding-blog-btn">Continue Reading</a>
-									</div>
-								</div>
-								<div class="col-lg-6">
-									<div class="slider-img">
-										<img src="assets/img/blog-banner/slow-img.png" alt="img">
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="down-slider-item">
-							<div class="row">
-								<div class="col-lg-6">
-									<div class="slider-text">
-										<h4>Fashion</h4>
-										<h2>Fashion Model Shoot</h2>
-										<p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitdin, lorem quis bibendum auctor, nisi elit consequat de .</p>
-										<a href="#" class="btn btn-theme padding-blog-btn">Continue Reading</a>
-									</div>
-								</div>
-								<div class="col-lg-6">
-									<div class="slider-img">
-										<img src="assets/img/blog-banner/slow-img.png" alt="img">
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="down-slider-item">
-							<div class="row">
-								<div class="col-lg-6">
-									<div class="slider-text">
-										<h4>Fashion</h4>
-										<h2>Fashion Model Shoot</h2>
-										<p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitdin, lorem quis bibendum auctor, nisi elit consequat de .</p>
-										<a href="#" class="btn btn-theme padding-blog-btn">Continue Reading</a>
-									</div>
-								</div>
-								<div class="col-lg-6">
-									<div class="slider-img">
-										<img src="assets/img/blog-banner/slow-img.png" alt="img">
-									</div>
-								</div>
-							</div>
-						</div>
+				<div class="col-lg-12">
+					<div class="hed-rec-post-trande">
+						<h4 class="blog-heading-border">trending Post</h4>
 					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-10 offset-lg-1">
-					<div class="blog-all-item-wrapper">
-						<div class="blog-item-around">
-							<div class="img-current">
-								<a href="#"><i class="fas fa-rupee-sign"></i>popular</a>
-								<img src="assets/img/home-4-blog-img/1.png" alt="img">
-							</div>
-							
-							<div class="current-details">
-							<div class="current-like">
-								<a href="#"><i class="far fa-heart"></i><br>42</a>
-							</div>
-								<h3><a href="#">Top 10 Amazing Places To Visit In Summers</a></h3>
-							</div>
-							<div class="current-author">
-								 <ul>
-								 	<li>BY:<a href="#"> Jhon Doe</a></li>
-								 	<li><a href="#">September 11, 2019</a></li>
-								 </ul>
-							</div>
-							<div class="line-2"></div>
-							<div class="current-para">
-								<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit..</p>
-							</div>
-							<div class="current-btn">
-								<a href="#" class="btn btn-theme padding-blog-btn">Continue Reading</a>
-							</div>
-							<div class="current-tags-icon">
-								<div class="tages">
-									<ul>
-										<li><a href="#"><i class="fas fa-tags"></i></a></li>
-										<li><a href="#">FASHION,</a></li>
-										<li><a href="#">TRAVEL,</a></li>
-										<li><a href="#">FOOD,</a></li>
-										<li><a href="#">LIFESTYLE</a></li>
-									</ul>
-								</div>
-								<div class="share-icon">
-									<ul>
-										<li>Share:</li>
-										<li><a href="#"><i class="fab fa-facebook"></i></a></li>
-										<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-										<li><a href="#"><i class="fab fa-instagram"></i></a></li>
-										<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-										<li><a href="#"><i class="fab fa-medium"></i></a></li>
-									</ul>
-								</div>
-							</div>
-							<div class="line-2 margin-top-bottom"></div>
-						</div>
-						<div class="banner-add-slow text-center">
-							<a href="#"><img src="assets/img/blog-banner/add-2.png" alt="img"></a>
-						</div>
-						 <div class="blog-item-around">
-							<div class="img-current">
-								<img src="assets/img/home-4-blog-img/2.png" alt="img">
-							</div>
-							
-							<div class="current-details">
-							<div class="current-like">
-								<a href="#"><i class="far fa-heart"></i><br>42</a>
-							</div>
-								<h3><a href="#">Top 10 Amazing Places To Visit In Summers</a></h3>
-							</div>
-							<div class="current-author">
-								 <ul>
-								 	<li>BY:<a href="#"> Jhon Doe</a></li>
-								 	<li><a href="#">September 11, 2019</a></li>
-								 </ul>
-							</div>
-							<div class="line-2"></div>
-							<div class="current-para">
-								<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit..</p>
-							</div>
-							<div class="current-btn">
-								<a href="#" class="btn btn-theme padding-blog-btn">Continue Reading</a>
-							</div>
-							<div class="current-tags-icon">
-								<div class="tages">
-									<ul>
-										<li><a href="#"><i class="fas fa-tags"></i></a></li>
-										<li><a href="#">FASHION,</a></li>
-										<li><a href="#">TRAVEL,</a></li>
-										<li><a href="#">FOOD,</a></li>
-										<li><a href="#">LIFESTYLE</a></li>
-									</ul>
-								</div>
-								<div class="share-icon">
-									<ul>
-										<li>Share:</li>
-										<li><a href="#"><i class="fab fa-facebook"></i></a></li>
-										<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-										<li><a href="#"><i class="fab fa-instagram"></i></a></li>
-										<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-										<li><a href="#"><i class="fab fa-medium"></i></a></li>
-									</ul>
-								</div>
-							</div>
-							<div class="line-2 margin-top-bottom"></div>
-						</div>
-						 <div class="blog-item-around">
-							<div class="img-current">
-								<img src="assets/img/home-4-blog-img/3.png" alt="img">
-							</div>
-							
-							<div class="current-details">
-							<div class="current-like">
-								<a href="#"><i class="far fa-heart"></i><br>42</a>
-							</div>
-								<h3><a href="#">Top 10 Amazing Places To Visit In Summers</a></h3>
-							</div>
-							<div class="current-author">
-								 <ul>
-								 	<li>BY:<a href="#"> Jhon Doe</a></li>
-								 	<li><a href="#">September 11, 2019</a></li>
-								 </ul>
-							</div>
-							<div class="line-2"></div>
-							<div class="current-para">
-								<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit..</p>
-							</div>
-							<div class="current-btn">
-								<a href="#" class="btn btn-theme padding-blog-btn">Continue Reading</a>
-							</div>
-							<div class="current-tags-icon">
-								<div class="tages">
-									<ul>
-										<li><a href="#"><i class="fas fa-tags"></i></a></li>
-										<li><a href="#">FASHION,</a></li>
-										<li><a href="#">TRAVEL,</a></li>
-										<li><a href="#">FOOD,</a></li>
-										<li><a href="#">LIFESTYLE</a></li>
-									</ul>
-								</div>
-								<div class="share-icon">
-									<ul>
-										<li>Share:</li>
-										<li><a href="#"><i class="fab fa-facebook"></i></a></li>
-										<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-										<li><a href="#"><i class="fab fa-instagram"></i></a></li>
-										<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-										<li><a href="#"><i class="fab fa-medium"></i></a></li>
-									</ul>
-								</div>
-							</div>
-							<div class="line-2 margin-top-bottom"></div>
-						</div>
-						<div class="banner-add-slow text-center">
-							<a href="#"><img src="assets/img/blog-banner/add-2.png" alt="img"></a>
-						</div>
-						<div class="blog-item-around">
-							<div class="img-current">
-								<img src="assets/img/home-4-blog-img/4.png" alt="img">
-							</div>
-							
-							<div class="current-details">
-							<div class="current-like">
-								<a href="#"><i class="far fa-heart"></i><br>42</a>
-							</div>
-								<h3><a href="#">Top 10 Amazing Places To Visit In Summers</a></h3>
-							</div>
-							<div class="current-author">
-								 <ul>
-								 	<li>BY:<a href="#"> Jhon Doe</a></li>
-								 	<li><a href="#">September 11, 2019</a></li>
-								 </ul>
-							</div>
-							<div class="line-2"></div>
-							<div class="current-para">
-								<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit..</p>
-							</div>
-							<div class="current-btn">
-								<a href="#" class="btn btn-theme padding-blog-btn">Continue Reading</a>
-							</div>
-							<div class="current-tags-icon">
-								<div class="tages">
-									<ul>
-										<li><a href="#"><i class="fas fa-tags"></i></a></li>
-										<li><a href="#">FASHION,</a></li>
-										<li><a href="#">TRAVEL,</a></li>
-										<li><a href="#">FOOD,</a></li>
-										<li><a href="#">LIFESTYLE</a></li>
-									</ul>
-								</div>
-								<div class="share-icon">
-									<ul>
-										<li>Share:</li>
-										<li><a href="#"><i class="fab fa-facebook"></i></a></li>
-										<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-										<li><a href="#"><i class="fab fa-instagram"></i></a></li>
-										<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-										<li><a href="#"><i class="fab fa-medium"></i></a></li>
-									</ul>
-								</div>
-							</div>
-							<div class="line-2 margin-top-bottom"></div>
-						</div>
-						<div class="blog-item-around">
-							<div class="img-current">
-								<img src="assets/img/home-4-blog-img/5.png" alt="img">
-							</div>
-							
-							<div class="current-details">
-							<div class="current-like">
-								<a href="#"><i class="far fa-heart"></i><br>42</a>
-							</div>
-								<h3><a href="#">Top 10 Amazing Places To Visit In Summers</a></h3>
-							</div>
-							<div class="current-author">
-								 <ul>
-								 	<li>BY:<a href="#"> Jhon Doe</a></li>
-								 	<li><a href="#">September 11, 2019</a></li>
-								 </ul>
-							</div>
-							<div class="line-2"></div>
-							<div class="current-para">
-								<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit..</p>
-							</div>
-							<div class="current-btn">
-								<a href="#" class="btn btn-theme padding-blog-btn">Continue Reading</a>
-							</div>
-							<div class="current-tags-icon">
-								<div class="tages">
-									<ul>
-										<li><a href="#"><i class="fas fa-tags"></i></a></li>
-										<li><a href="#">FASHION,</a></li>
-										<li><a href="#">TRAVEL,</a></li>
-										<li><a href="#">FOOD,</a></li>
-										<li><a href="#">LIFESTYLE</a></li>
-									</ul>
-								</div>
-								<div class="share-icon">
-									<ul>
-										<li>Share:</li>
-										<li><a href="#"><i class="fab fa-facebook"></i></a></li>
-										<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-										<li><a href="#"><i class="fab fa-instagram"></i></a></li>
-										<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-										<li><a href="#"><i class="fab fa-medium"></i></a></li>
-									</ul>
-								</div>
-							</div>
-							<div class="line-2 margin-top-bottom"></div>
-						</div>
-						<div class="blog-item-around">
-							<div class="img-current">
+					<div class="arrow-slider-wrapper owl-carousel owl-theme">
+						<div class="arrow-slider-items">
+							<div class="arrow-slider-img">
 								<img src="assets/img/home-4-blog-img/6.png" alt="img">
 							</div>
-							
-							<div class="current-details">
-							<div class="current-like">
-								<a href="#"><i class="far fa-heart"></i><br>42</a>
+							<div class="arrow-slider-details">
+								<p><a href="#">FASHION</a></p>
+								<h4><a href="#">Best Fashion Related Job News of this Month December</a></h4>
+								<ul>
+									<li>BY:<a href="#"> Jhone Doe</a></li>
+									<li><a href="#">September 11, 2019</a></li>
+								</ul>
 							</div>
-								<h3><a href="#">Top 10 Amazing Places To Visit In Summers</a></h3>
-							</div>
-							<div class="current-author">
-								 <ul>
-								 	<li>BY:<a href="#"> Jhon Doe</a></li>
-								 	<li><a href="#">September 11, 2019</a></li>
-								 </ul>
-							</div>
-							<div class="line-2"></div>
-							<div class="current-para">
-								<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit..</p>
-							</div>
-							<div class="current-btn">
-								<a href="#" class="btn btn-theme padding-blog-btn">Continue Reading</a>
-							</div>
-							<div class="current-tags-icon">
-								<div class="tages">
-									<ul>
-										<li><a href="#"><i class="fas fa-tags"></i></a></li>
-										<li><a href="#">FASHION,</a></li>
-										<li><a href="#">TRAVEL,</a></li>
-										<li><a href="#">FOOD,</a></li>
-										<li><a href="#">LIFESTYLE</a></li>
-									</ul>
-								</div>
-								<div class="share-icon">
-									<ul>
-										<li>Share:</li>
-										<li><a href="#"><i class="fab fa-facebook"></i></a></li>
-										<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-										<li><a href="#"><i class="fab fa-instagram"></i></a></li>
-										<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-										<li><a href="#"><i class="fab fa-medium"></i></a></li>
-									</ul>
-								</div>
-							</div>
-							<div class="line-2 margin-top-bottom"></div>
 						</div>
-						<div class="blog-home-load-btn">
-						<a href="#" class="btn-theme load-btn">Load More</a>
-					</div>
+						<div class="arrow-slider-items">
+							<div class="arrow-slider-img">
+								<img src="assets/img/home-4-blog-img/7.png" alt="img">
+							</div>
+							<div class="arrow-slider-details">
+								<p><a href="#">FOOD</a></p>
+								<h4><a href="#">Best Fashion Related Job News of this Month December</a></h4>
+								<ul>
+									<li>BY:<a href="#"> Jhone Doe</a></li>
+									<li><a href="#">September 11, 2019</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="arrow-slider-items">
+							<div class="arrow-slider-img">
+								<img src="assets/img/home-4-blog-img/8.png" alt="img">
+							</div>
+							<div class="arrow-slider-details">
+								<p><a href="#">MUSIC</a></p>
+								<h4><a href="#">Best Fashion Related Job News of this Month December</a></h4>
+								<ul>
+									<li>BY:<a href="#"> Jhone Doe</a></li>
+									<li><a href="#">September 11, 2019</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="arrow-slider-items">
+							<div class="arrow-slider-img">
+								<img src="assets/img/home-4-blog-img/8.png" alt="img">
+							</div>
+							<div class="arrow-slider-details">
+								<p><a href="#">FASHION</a></p>
+								<h4><a href="#">Best Fashion Related Job News of this Month December</a></h4>
+								<ul>
+									<li>BY:<a href="#"> Jhone Doe</a></li>
+									<li><a href="#">September 11, 2019</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="arrow-slider-items">
+							<div class="arrow-slider-img">
+								<img src="assets/img/home-4-blog-img/8.png" alt="img">
+							</div>
+							<div class="arrow-slider-details">
+								<p><a href="#">FASHION</a></p>
+								<h4><a href="#">Best Fashion Related Job News of this Month December</a></h4>
+								<ul>
+									<li>BY:<a href="#"> Jhone Doe</a></li>
+									<li><a href="#">September 11, 2019</a></li>
+								</ul>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	
+	<!--secend-top-wedget end-->
+
+	<!--Blog-four-slider-down-start-->
+	<section id="blog-main-content">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8">
+					<div class="all-tabs-aming">
+						<div class="hed-tabs-catagoty">
+							<h4 class="blog-heading-border">category</h4>
+						</div>
+						<div class="tabs-button">
+							<ul class="nav nav-tabs">
+								<li class="nav-item">
+									<a class="nav-link active" data-toggle="tab" href="#home">ALL</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" data-toggle="tab" href="#fashon">FASHION</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" data-toggle="tab" href="#photo">PHOTO</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" data-toggle="tab" href="#food">FOOD</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" data-toggle="tab" href="#travel">TRAVEL</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="all-tabs">
+						<div class="tab-content">
+							<div id="home" class="container tab-pane active"><br>
+								<div class="row">
+									<div class="col-lg-6">
+										<div class="tabs-details">
+											<div class="blog-post bac-white">
+												<div class="blog-post-img blog-tabs-alo">
+													<img src="assets/img/home-4-blog-img/main/1.png" alt="img">
+													<a href="#" class="blog-folder">travel</a>
+												</div>
+												<div class="blog-details padd-tab">
+													<div class="blog-heading-para">
+														<h6><a href="#">Does The Freelance Job Make All People Happy Always</a></h6>
+														<p>There’s a critic in the signing a new client process that not enough Who would have thought.</p>
+													</div>
+													<div class="blog-author">
+														<ul>
+															<li><a href="#"><i class="fas fa-user"></i> Albert jhon</a></li>
+															<li><a href="#"><i class="fas fa-comments"></i> 03 Comment</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-6">
+										<div class="tabs-details">
+											<div class="blog-post bac-white">
+												<div class="blog-post-img blog-tabs-alo">
+													<img src="assets/img/home-4-blog-img/main/2.png" alt="img">
+													<a href="#" class="blog-folder">FASHION</a>
+												</div>
+												<div class="blog-details padd-tab">
+													<div class="blog-heading-para">
+														<h6><a href="#">Does The Freelance Job Make All People Happy Always</a></h6>
+														<p>There’s a critic in the signing a new client process that not enough Who would have thought.</p>
+													</div>
+													<div class="blog-author">
+														<ul>
+															<li><a href="#"><i class="fas fa-user"></i> Albert jhon</a></li>
+															<li><a href="#"><i class="fas fa-comments"></i> 03 Comment</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-6">
+										<div class="tabs-details mt-4">
+											<div class="blog-post bac-white">
+												<div class="blog-post-img blog-tabs-alo">
+													<img src="assets/img/home-4-blog-img/main/3.png" alt="img">
+													<a href="#" class="blog-folder">FITNESS</a>
+												</div>
+												<div class="blog-details padd-tab">
+													<div class="blog-heading-para">
+														<h6><a href="#">Does The Freelance Job Make All People Happy Always</a></h6>
+														<p>There’s a critic in the signing a new client process that not enough Who would have thought.</p>
+													</div>
+													<div class="blog-author">
+														<ul>
+															<li><a href="#"><i class="fas fa-user"></i> Albert jhon</a></li>
+															<li><a href="#"><i class="fas fa-comments"></i> 03 Comment</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-6">
+										<div class="tabs-details mt-4">
+											<div class="blog-post bac-white">
+												<div class="blog-post-img blog-tabs-alo">
+													<img src="assets/img/home-4-blog-img/main/4.png" alt="img">
+													<a href="#" class="blog-folder">GADGET</a>
+												</div>
+												<div class="blog-details padd-tab">
+													<div class="blog-heading-para">
+														<h6><a href="#">Does The Freelance Job Make All People Happy Always</a></h6>
+														<p>There’s a critic in the signing a new client process that not enough Who would have thought.</p>
+													</div>
+													<div class="blog-author">
+														<ul>
+															<li><a href="#"><i class="fas fa-user"></i> Albert jhon</a></li>
+															<li><a href="#"><i class="fas fa-comments"></i> 03 Comment</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div id="fashon" class="container tab-pane fade"><br>
+								<div class="row">
+									<div class="col-lg-6">
+										<div class="tabs-details">
+											<div class="blog-post bac-white">
+												<div class="blog-post-img blog-tabs-alo">
+													<img src="assets/img/blog-banner/blog-1.png" alt="img">
+													<a href="#" class="blog-folder">CAREER</a>
+												</div>
+												<div class="blog-details padd-tab">
+													<div class="blog-heading-para">
+														<h6><a href="#">Does The Freelance Job Make All People Happy Always</a></h6>
+														<p>There’s a critic in the signing a new client process that not enough Who would have thought.</p>
+													</div>
+													<div class="blog-author">
+														<ul>
+															<li><a href="#"><i class="fas fa-user"></i> Albert jhon</a></li>
+															<li><a href="#"><i class="fas fa-comments"></i> 03 Comment</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-6">
+										<div class="tabs-details">
+											<div class="blog-post bac-white">
+												<div class="blog-post-img blog-tabs-alo">
+													<img src="assets/img/blog-banner/blog-1.png" alt="img">
+													<a href="#" class="blog-folder">CAREER</a>
+												</div>
+												<div class="blog-details padd-tab">
+													<div class="blog-heading-para">
+														<h6><a href="#">Does The Freelance Job Make All People Happy Always</a></h6>
+														<p>There’s a critic in the signing a new client process that not enough Who would have thought.</p>
+													</div>
+													<div class="blog-author">
+														<ul>
+															<li><a href="#"><i class="fas fa-user"></i> Albert jhon</a></li>
+															<li><a href="#"><i class="fas fa-comments"></i> 03 Comment</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div id="photo" class="container tab-pane fade"><br>
+								<div class="row">
+									<div class="col-lg-6">
+										<div class="tabs-details">
+											<div class="blog-post bac-white">
+												<div class="blog-post-img blog-tabs-alo">
+													<img src="assets/img/blog-banner/blog-1.png" alt="img">
+													<a href="#" class="blog-folder">CAREER</a>
+												</div>
+												<div class="blog-details padd-tab">
+													<div class="blog-heading-para">
+														<h6><a href="#">Does The Freelance Job Make All People Happy Always</a></h6>
+														<p>There’s a critic in the signing a new client process that not enough Who would have thought.</p>
+													</div>
+													<div class="blog-author">
+														<ul>
+															<li><a href="#"><i class="fas fa-user"></i> Albert jhon</a></li>
+															<li><a href="#"><i class="fas fa-comments"></i> 03 Comment</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-6">
+										<div class="tabs-details">
+											<div class="blog-post bac-white">
+												<div class="blog-post-img blog-tabs-alo">
+													<img src="assets/img/blog-banner/blog-1.png" alt="img">
+													<a href="#" class="blog-folder">CAREER</a>
+												</div>
+												<div class="blog-details padd-tab">
+													<div class="blog-heading-para">
+														<h6><a href="#">Does The Freelance Job Make All People Happy Always</a></h6>
+														<p>There’s a critic in the signing a new client process that not enough Who would have thought.</p>
+													</div>
+													<div class="blog-author">
+														<ul>
+															<li><a href="#"><i class="fas fa-user"></i> Albert jhon</a></li>
+															<li><a href="#"><i class="fas fa-comments"></i> 03 Comment</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div id="food" class="container tab-pane fade"><br>
+								<div class="row">
+									<div class="col-lg-6">
+										<div class="tabs-details">
+											<div class="blog-post bac-white">
+												<div class="blog-post-img blog-tabs-alo">
+													<img src="assets/img/blog-banner/blog-1.png" alt="img">
+													<a href="#" class="blog-folder">CAREER</a>
+												</div>
+												<div class="blog-details padd-tab">
+													<div class="blog-heading-para">
+														<h6><a href="#">Does The Freelance Job Make All People Happy Always</a></h6>
+														<p>There’s a critic in the signing a new client process that not enough Who would have thought.</p>
+													</div>
+													<div class="blog-author">
+														<ul>
+															<li><a href="#"><i class="fas fa-user"></i> Albert jhon</a></li>
+															<li><a href="#"><i class="fas fa-comments"></i> 03 Comment</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div><div class="col-lg-6">
+										<div class="tabs-details">
+											<div class="blog-post bac-white">
+												<div class="blog-post-img blog-tabs-alo">
+													<img src="assets/img/blog-banner/blog-1.png" alt="img">
+													<a href="#" class="blog-folder">CAREER</a>
+												</div>
+												<div class="blog-details padd-tab">
+													<div class="blog-heading-para">
+														<h6><a href="#">Does The Freelance Job Make All People Happy Always</a></h6>
+														<p>There’s a critic in the signing a new client process that not enough Who would have thought.</p>
+													</div>
+													<div class="blog-author">
+														<ul>
+															<li><a href="#"><i class="fas fa-user"></i> Albert jhon</a></li>
+															<li><a href="#"><i class="fas fa-comments"></i> 03 Comment</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div id="travel" class="container tab-pane fade"><br>
+								<div class="row">
+									<div class="col-lg-6">
+										<div class="tabs-details">
+											<div class="blog-post bac-white">
+												<div class="blog-post-img blog-tabs-alo">
+													<img src="assets/img/blog-banner/blog-1.png" alt="img">
+													<a href="#" class="blog-folder">CAREER</a>
+												</div>
+												<div class="blog-details padd-tab">
+													<div class="blog-heading-para">
+														<h6><a href="#">Does The Freelance Job Make All People Happy Always</a></h6>
+														<p>There’s a critic in the signing a new client process that not enough Who would have thought.</p>
+													</div>
+													<div class="blog-author">
+														<ul>
+															<li><a href="#"><i class="fas fa-user"></i> Albert jhon</a></li>
+															<li><a href="#"><i class="fas fa-comments"></i> 03 Comment</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-6">
+										<div class="tabs-details">
+											<div class="blog-post bac-white">
+												<div class="blog-post-img blog-tabs-alo">
+													<img src="assets/img/blog-banner/blog-1.png" alt="img">
+													<a href="#" class="blog-folder">CAREER</a>
+												</div>
+												<div class="blog-details padd-tab">
+													<div class="blog-heading-para">
+														<h6><a href="#">Does The Freelance Job Make All People Happy Always</a></h6>
+														<p>There’s a critic in the signing a new client process that not enough Who would have thought.</p>
+													</div>
+													<div class="blog-author">
+														<ul>
+															<li><a href="#"><i class="fas fa-user"></i> Albert jhon</a></li>
+															<li><a href="#"><i class="fas fa-comments"></i> 03 Comment</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-6">
+										<div class="tabs-details mt-4">
+											<div class="blog-post bac-white">
+												<div class="blog-post-img blog-tabs-alo">
+													<img src="assets/img/blog-banner/blog-1.png" alt="img">
+													<a href="#" class="blog-folder">CAREER</a>
+												</div>
+												<div class="blog-details padd-tab">
+													<div class="blog-heading-para">
+														<h6><a href="#">Does The Freelance Job Make All People Happy Always</a></h6>
+														<p>There’s a critic in the signing a new client process that not enough Who would have thought.</p>
+													</div>
+													<div class="blog-author">
+														<ul>
+															<li><a href="#"><i class="fas fa-user"></i> Albert jhon</a></li>
+															<li><a href="#"><i class="fas fa-comments"></i> 03 Comment</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="blog-add-widget margin-top-60">
+						<a href="#"><img src="assets/img/blog-banner/add-2.png" alt="add"></a>
+					</div>
+					<div class="fashon-wedget">
+						<div class="hed-tabs-catagoty margin-top-60">
+							<h4 class="blog-heading-border">fashion</h4>
+						</div>
+						<div class="view-all-cata">
+							<a href="#" class="view-all-fotn">VIEW ALL</a>
+						</div>
+						<div class="row">
+							<div class="col-lg-6">
+								<div class="all-view-wedget margin-top-30">
+									<div class="view-img">
+										<img src="assets/img/home-4-blog-img/main/5.png" alt="img">
+									</div>
+									<div class="view-details">
+										<div class="author-view">
+											<a href="#" class="travel-view">Travel</a>
+											<a href="#" class="travel-date">September 11, 2019</a>
+										</div>
+										<h4><a href="#">Explore the World With New Vision Join Our Team</a></h4>
+										<p>There’s a critic in the signing a new client process that not enough Who would have thought.</p>
+										<div class="blog-two-widget-btn-icon">
+								<div class="read-btn">
+									<a href="#" class="btn read-more padding-blog-btn">Read More</a>
+								</div>
+								<div class="soical-icon-blog">
+									<a href="#"><i class="fab fa-facebook-f"></i></a>
+									<a href="#"><i class="fab fa-twitter"></i></a>
+									<a href="#"><i class="fab fa-tumblr"></i></a>
+									<a href="#"><i class="fab fa-google-plus-g"></i></a>
+								</div>
+							</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<div class="all-view-wedget margin-top-30">
+									<div class="view-img">
+										<img src="assets/img/home-4-blog-img/main/6.png" alt="img">
+									</div>
+									<div class="view-details">
+										<div class="author-view">
+											<a href="#" class="travel-view">Food</a>
+											<a href="#" class="travel-date">September 11, 2019</a>
+										</div>
+										<h4><a href="#">Explore the World With New Vision Join Our Team</a></h4>
+										<p>There’s a critic in the signing a new client process that not enough Who would have thought.</p>
+										<div class="blog-two-widget-btn-icon">
+								<div class="read-btn">
+									<a href="#" class="btn read-more padding-blog-btn">Read More</a>
+								</div>
+								<div class="soical-icon-blog">
+									<a href="#"><i class="fab fa-facebook-f"></i></a>
+									<a href="#"><i class="fab fa-twitter"></i></a>
+									<a href="#"><i class="fab fa-tumblr"></i></a>
+									<a href="#"><i class="fab fa-google-plus-g"></i></a>
+								</div>
+							</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="travel-sub-wedget">
+						<div class="row">
+							<div class="col-lg-6">
+								<div class="travel-sub-item margin-top-60">
+									<div class="travel-sub-img">
+										<img src="assets/img/home-4-blog-img/main/7.png" alt="img">
+									</div>
+									<div class="travel-sub-details">
+										<div class="travel-sub-author">
+											<a href="#" class="sub-travel">travel</a>
+											<a href="#" class="sub-date">September 11, 2019</a>
+										</div>
+										<p>There’s a critic in the signing a new client process that not enough Who.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<div class="travel-sub-item margin-top-60">
+									<div class="travel-sub-img">
+										<img src="assets/img/home-4-blog-img/main/8.png" alt="img">
+									</div>
+									<div class="travel-sub-details">
+										<div class="travel-sub-author">
+											<a href="#" class="sub-travel">travel</a>
+											<a href="#" class="sub-date">September 11, 2019</a>
+										</div>
+										<p>There’s a critic in the signing a new client process that not enough Who.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<div class="travel-sub-item margin-top-30">
+									<div class="travel-sub-img">
+										<img src="assets/img/home-4-blog-img/main/9.png" alt="img">
+									</div>
+									<div class="travel-sub-details">
+										<div class="travel-sub-author">
+											<a href="#" class="sub-travel">travel</a>
+											<a href="#" class="sub-date">September 11, 2019</a>
+										</div>
+										<p>There’s a critic in the signing a new client process that not enough Who.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<div class="travel-sub-item margin-top-30">
+									<div class="travel-sub-img">
+										<img src="assets/img/home-4-blog-img/main/10.png" alt="img">
+									</div>
+									<div class="travel-sub-details">
+										<div class="travel-sub-author">
+											<a href="#" class="sub-travel">travel</a>
+											<a href="#" class="sub-date">September 11, 2019</a>
+										</div>
+										<p>There’s a critic in the signing a new client process that not enough Who.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="blog-add-widget margin-top-60">
+						<a href="#"><img src="assets/img/blog-banner/add-2.png" alt="add"></a>
+					</div>
+					<div class="resent-travel-wedget">
+						<div class="hed-tabs-catagoty margin-top-60">
+							<h4 class="blog-heading-border">recent post</h4>
+						</div>
+						<div class="view-all-cata">
+							<a href="#" class="view-all-fotn">VIEW ALL</a>
+						</div>
+						<div class="blog-item-width margin-top-30">
+						<div class="blog-widget-half-width-img">
+							<img src="assets/img/blog-banner/img-1.png" alt="img">
+						</div>
+						<div class="blog-item-wrapper">
+					     <div class="blog-item-width">
+							<h6><a href="#">Exploring San Francisco’s Cuisine</a></h6>
+						</div>
+						<div class="blog-item-width-author">
+							<ul>
+								<li>By:<a href="#">jhon Doe</a></li>
+								<li><a href="#">September 11, 2019</a></li>
+							</ul>
+						</div>
+						<div class="line-space"></div>
+						<div class="blog-item-width-paragraph">
+							<p>This is Photoshop's version of Lorem Ipsum. Proin is gravida nibh vel velit haauctor aliquet. Aenean sollicitudinnostra..</p>
+						</div>
+						<div class="blog-item-width-btn-icon">
+							<div class="read-btn">
+								<a href="#" class="btn btn-theme padding-blog-btn">Continue reading</a>
+							</div>
+							<div class="soical-icon-blog blog-soical-margin">
+								<a href="#"><i class="fab fa-facebook-f"></i></a>
+								<a href="#"><i class="fab fa-twitter"></i></a>
+								<a href="#"><i class="fab fa-tumblr"></i></a>
+								<a href="#"><i class="fab fa-google-plus-g"></i></a>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="blog-item-width margin-top-30">
+						<div class="blog-widget-half-width-img">
+							<img src="assets/img/blog-banner/img-2.png" alt="img">
+						</div>
+						<div class="blog-item-wrapper">
+					     <div class="blog-item-width">
+							<h6><a href="#">Exploring San Francisco’s Cuisine</a></h6>
+						</div>
+						<div class="blog-item-width-author">
+							<ul>
+								<li>By:<a href="#">jhon Doe</a></li>
+								<li><a href="#">September 11, 2019</a></li>
+							</ul>
+						</div>
+						<div class="line-space"></div>
+						<div class="blog-item-width-paragraph">
+							<p>This is Photoshop's version of Lorem Ipsum. Proin is gravida nibh vel velit haauctor aliquet. Aenean sollicitudinnostra..</p>
+						</div>
+						<div class="blog-item-width-btn-icon">
+							<div class="read-btn">
+								<a href="#" class="btn btn-theme padding-blog-btn">Continue reading</a>
+							</div>
+							<div class="soical-icon-blog blog-soical-margin">
+								<a href="#"><i class="fab fa-facebook-f"></i></a>
+								<a href="#"><i class="fab fa-twitter"></i></a>
+								<a href="#"><i class="fab fa-tumblr"></i></a>
+								<a href="#"><i class="fab fa-google-plus-g"></i></a>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="blog-item-width margin-top-30">
+						<div class="blog-widget-half-width-img">
+							<img src="assets/img/blog-banner/img-3.png" alt="img">
+						</div>
+						<div class="blog-item-wrapper">
+					     <div class="blog-item-width">
+							<h6><a href="#">Exploring San Francisco’s Cuisine</a></h6>
+						</div>
+						<div class="blog-item-width-author">
+							<ul>
+								<li>By:<a href="#">jhon Doe</a></li>
+								<li><a href="#">September 11, 2019</a></li>
+							</ul>
+						</div>
+						<div class="line-space"></div>
+						<div class="blog-item-width-paragraph">
+							<p>This is Photoshop's version of Lorem Ipsum. Proin is gravida nibh vel velit haauctor aliquet. Aenean sollicitudinnostra..</p>
+						</div>
+						<div class="blog-item-width-btn-icon">
+							<div class="read-btn">
+								<a href="#" class="btn btn-theme padding-blog-btn">Continue reading</a>
+							</div>
+							<div class="soical-icon-blog blog-soical-margin">
+								<a href="#"><i class="fab fa-facebook-f"></i></a>
+								<a href="#"><i class="fab fa-twitter"></i></a>
+								<a href="#"><i class="fab fa-tumblr"></i></a>
+								<a href="#"><i class="fab fa-google-plus-g"></i></a>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="blog-item-width margin-top-30">
+						<div class="blog-widget-half-width-img">
+							<img src="assets/img/blog-banner/img-4.png" alt="img">
+						</div>
+						<div class="blog-item-wrapper">
+					     <div class="blog-item-width">
+							<h6><a href="#">Exploring San Francisco’s Cuisine</a></h6>
+						</div>
+						<div class="blog-item-width-author">
+							<ul>
+								<li>By:<a href="#">jhon Doe</a></li>
+								<li><a href="#">September 11, 2019</a></li>
+							</ul>
+						</div>
+						<div class="line-space"></div>
+						<div class="blog-item-width-paragraph">
+							<p>This is Photoshop's version of Lorem Ipsum. Proin is gravida nibh vel velit haauctor aliquet. Aenean sollicitudinnostra..</p>
+						</div>
+						<div class="blog-item-width-btn-icon">
+							<div class="read-btn">
+								<a href="#" class="btn btn-theme padding-blog-btn">Continue reading</a>
+							</div>
+							<div class="soical-icon-blog blog-soical-margin">
+								<a href="#"><i class="fab fa-facebook-f"></i></a>
+								<a href="#"><i class="fab fa-twitter"></i></a>
+								<a href="#"><i class="fab fa-tumblr"></i></a>
+								<a href="#"><i class="fab fa-google-plus-g"></i></a>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="blog-home-load-btn">
+							<a href="#" class="btn-theme load-btn">Load More</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="sidebar-widget">
+						<div class="widget widget-search">
+							<form>
+								<div class="form-inline form-group">
+									<input type="text" class="form-control" placeholder="Search">
+									<i class="fa fa-search"></i>
+								</div>
+							</form>
+						</div>
+						<div class="widget widget-post-area recent-post">
+							<h3 class="widget-title">Recent Posts
+							</h3>
+
+							<ul>
+								<li>
+									<a href="#">
+										<img src="assets/img/blog-banner/p-1.png" alt="image">
+									</a>
+
+									<h5><a href="#">Beauty Fashion</a></h5>
+									<p class="date">JUNE 18, 2019</p>
+								</li>
+
+								<li>
+									<a href="#">
+										<img src="assets/img/blog-banner/p-2.png" alt="image">
+									</a>
+
+									<h5><a href="#">Beauty Fashion</a></h5>
+									<p class="date">JUNE 18, 2019</p>
+								</li>
+
+								<li>
+									<a href="#">
+										<img src="assets/img/blog-banner/p-3.png" alt="image">
+									</a>
+
+									<h5><a href="#">Beauty Fashion</a></h5>
+									<p class="date">JUNE 18, 2019</p>
+								</li>
+								<li>
+									<a href="#">
+										<img src="assets/img/blog-banner/p-4.png" alt="image">
+									</a>
+
+									<h5><a href="#">Beauty Fashion</a></h5>
+									<p class="date">JUNE 18, 2019</p>
+								</li>
+
+							</ul>
+						</div>
+						<div class="widget  widget-post-area catagories-last">
+							<h3 class="widget-title">catagories</h3>
+							<div class="catagories-item">
+								<ul>
+									<li>
+										<a href="#">Charity <span>(28)</span></a>
+									</li>
+									<li>
+										<a href="#">Images <span>(95)</span></a>
+									</li>
+									<li>
+										<a href="#">Life Style <span>(65)</span></a>
+									</li>
+									<li>
+										<a href="#">Music Top <span>(46)</span></a>
+									</li>
+									<li>
+										<a href="#">Travel <span>(90)</span></a>
+									</li>
+									<li>
+										<a href="#">web Design <span>(25)</span></a>
+									</li>
+								</ul>
+							</div>
+
+						</div>
+						<div class="widget widget-post-area">
+							<h3 class="widget-title">Instagram</h3>
+							<div class="instagram-item">
+								<a href="#"><img src="assets/img/blog-banner/ins-1.png" alt=""></a>
+								<a href="#"><img src="assets/img/blog-banner/ins-2.png" alt=""></a>
+								<a href="#"><img src="assets/img/blog-banner/ins-3.png" alt=""></a>
+								<a href="#"><img src="assets/img/blog-banner/ins-4.png" alt=""></a>
+								<a href="#"><img src="assets/img/blog-banner/ins-5.png" alt=""></a>
+								<a href="#"><img src="assets/img/blog-banner/ins-6.png" alt=""></a>
+								<a href="#"><img src="assets/img/blog-banner/ins-7.png" alt=""></a>
+								<a href="#"><img src="assets/img/blog-banner/ins-8.png" alt=""></a>
+								<a href="#"><img src="assets/img/blog-banner/ins-9.png" alt=""></a>
+								<a href="#"><img src="assets/img/blog-banner/ins-8.png" alt=""></a>
+								<a href="#"><img src="assets/img/blog-banner/ins-1.png" alt=""></a>
+								<a href="#"><img src="assets/img/blog-banner/ins-2.png" alt=""></a>
+							</div>
+
+						</div>
+						<div class="widget widget-post-area">
+							<h3 class="widget-title">join our newsletter</h3>
+							<div class="news-letter">
+								<p>Enter your email to receive our newsletter </p>
+								<form action="#">
+									<div class="form-group">
+										<input type="text" name="news" placeholder="Your Email Address" class="form-control" required>
+									</div>
+									<div class="subscribe-button">
+										<input type="submit" class="btn btn-subscribe" value="Subscribe">
+									</div>
+								</form>
+							</div>
+						</div>
+						<div class="widget widget-post-area">
+							<h3 class="widget-title">Social Media</h3>
+							<div class="social-icon-item">
+								<a href="#"><i class="fab fa-facebook-f"></i></a>
+								<a href="#"><i class="fab fa-twitter"></i></a>
+								<a href="#"><i class="fab fa-google-plus-g"></i></a>
+								<a href="#"><i class="fab fa-instagram"></i></a>
+								<a href="#"><i class="fab fa-linkedin-in"></i></a>
+							</div>
+						</div>
+						<div class="widget widget-post-area">
+							<h3 class="widget-title">post slider</h3>
+							<div class="widget-slider-item owl-carousel owl-them">
+								<div class="post-slider">
+									<img src="assets/img/blog-banner/slider-sider.png" alt="img">
+									<p><a href="#">The Day I Visit in Morocco</a></p>
+								</div>
+								<div class="post-slider">
+									<img src="assets/img/blog-banner/slider-sider.png" alt="img">
+									<p><a href="#">The Day I Visit in Morocco</a></p>
+								</div>
+								<div class="post-slider">
+									<img src="assets/img/blog-banner/slider-sider.png" alt="img">
+									<p><a href="#">The Day I Visit in Morocco</a></p>
+								</div>
+								<div class="post-slider">
+									<img src="assets/img/blog-banner/slider-sider.png" alt="img">
+									<p><a href="#">The Day I Visit in Morocco</a></p>
+								</div>
+							</div>
+						</div>
+						<div class="widget widget-add">
+							<div class="img-add">
+								<a href="#">
+									<img src="assets/img/ad.png" alt="img">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 	<!--Blog-four-slider-down-end-->
 	
 	
