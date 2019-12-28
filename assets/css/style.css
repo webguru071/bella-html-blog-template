@@ -1,4 +1,4 @@
- /*============ Template Introduction=====================
+/*============ Template Introduction=====================
 Template Name:
 Version: 1.0
 Author:Andit Theme/Hadayet
@@ -1125,7 +1125,7 @@ Tags:
  }
 
  .follow-wedgit {
- 	padding: 100px 0;
+ 	padding: 70px 0;
 
  }
 
@@ -1548,7 +1548,7 @@ Tags:
  }
 
  .soical-icon-blog {
- 	margin-top: 22px;
+ 	margin-top:39px;
  }
 
  .soical-icon-blog a i {
@@ -1597,7 +1597,9 @@ Tags:
 
  .blog-item-wrapper {
  	background: #fff;
- 	padding: 25px;
+    padding: 25px;
+    box-shadow: 0px 0px 21px -18px;
+	 
  }
 
  .blog-item-width-btn-icon {
@@ -2522,22 +2524,162 @@ font-size: 22px;
     text-decoration: none;
 }
 
+/*-----------------------------------
+ 			Catagory page
+ * -----------------------------------*/
+#category-banner{
+	background: #2d313a;
+    padding: 100px 0;
+}
+.banner-text-category{
+	
+}
+.banner-text-category p{
+	    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+}
+.banner-text-category h3{
+	font-size: 24px;
+    font-weight: 700;
+    color: var(--theme-color);
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+#category-content{
+	padding: 100px 0;
+}
+.category-blog{
+	background: #fff;
+}
+.read-btn {
+    margin-top: 14px;
+}
+/*-----------------------------------
+ 	About-whit-out-sidebar page
+ * -----------------------------------*/
+
+#side-out-about{
+	background:#f7f7f7;
+	padding: 20px 0 70px 0;
+}
+.about-heading-before{
+	margin-top: 60px;
+    font-weight: 700;
+    position: relative;
+}
+.about-heading-before:after{
+	content: "";
+	position: absolute;
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	background: #e3e3e3;
+	top: 20px;
+	   right: 39%;
+	
+}
+.about-heading-before:before{
+	content: "";
+	position: absolute;
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	background: #e3e3e3;
+	    top: 20px;
+    left: 39%;
+	
+}
+.line-about{
+	 height: 1px;
+    width: 100%;
+    background: #e3e3e3;
+    position: absolute;
+    top: 25px;
+}
+.about-heading-main p{
+    font-weight: 600;
+}
+.about-heading-main{
+	position: relative;
+}
+.about-heading-main span{
+	    background: #f7f7f7;
+    padding: 0px 59px;
+}
+.about-quat p{
+	font-size: 20px;
+    color: #999999;
+    font-style: italic;
+    line-height: 29px;
+    border-left: 2px solid var(--theme-color);
+    margin-left: 51px;
+    margin-right: 70px;
+    padding-left: 13px;
+}
+.about-out-details-para ul li{
+	    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    color: #424242;
+    margin-right: 15px;
+}
+.about-out-details-para ul li a{
+	color: #424242;
+	transition: .4s all;
+}
+.about-out-details-para ul li a:hover{
+	color: var(--theme-color);
+}
 
 
+/*-----------------------------------
+ 	About-whit-sidebar page
+ * -----------------------------------*/
 
+#about-side-content{
+	background: #f7f7f7;
+	padding: 50px 0 30px 0;
+}
+#about-side-content .about-heading-before:before {
+    left: 34%;
+}
+#about-side-content .about-heading-before:after {
+    right:34%;
+}
+.about-list{
+	margin-top: 30px;
+}
+.about-list ul li{
+	    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 13px;
+}
+.about-blog-side p{
+	    color: #999999;
+    font-size: 18px;
+    font-style: italic;
+    border-left: 2px solid var(--theme-color);
+    padding-left: 15px;
+}
+.side-img-arooe{
+	display: flex;
+	justify-content: space-between;
+}
+.soical-about ul li {
+	display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    color: #424242;
+    margin-right: 15px;
+}
+.soical-about ul li a{
+	color: #424242;
+	transition: .4s all;}
 
-
-
-
-
-
-
-
-
-
-
-
-
+.soical-about ul li a:hover{
+	color: var(--theme-color);
+}
 
 
 
