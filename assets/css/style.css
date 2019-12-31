@@ -3427,7 +3427,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 .md-number-input.number-input {
  border: 2px solid #ddd;
-    width: 147px;
+    width: 150px;
     margin: 0;
     height: 45px;
 }
@@ -3537,11 +3537,6 @@ input[type=number]::-webkit-outer-spin-button {
 .product-description p{
 	margin-top: 25px;
 }
-
-
-
-
-
 .single-shop-img {
   position:relative;
 }
@@ -3555,18 +3550,88 @@ input[type=number]::-webkit-outer-spin-button {
   width: 100px;
   height: 100px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*-----------------------------------
+        cart page
+ * -----------------------------------*/
+#cart-area{
+	background: #f7f7f7;
+	padding: 70px 0;
+}
+.table{
+	margin: 0;
+}
+.cart-table .table tbody td{
+    border: 1px solid #9e9e9e;
+    height: 150px;
+    vertical-align: middle;
+    font-size: 24px;
+    font-weight: 600;
+    background: #ffff;
+    color: #363636;
+}
+.cart-table .table thead th {
+       vertical-align: middle;
+    border: 1px solid #9e9e9e;
+    height: 50px;
+    background: #eeeeee;
+    font-size: 20px;
+    width: 105px;
+    font-weight: 700;
+}
+.cart-table .table-img{
+	text-align: center;
+	vertical-align: middle !important;
+}
+.cart-table .close-icon i{
+	    color: red;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.coupon{
+	display: flex;
+    background: #fff;
+    border: 1px solid #9e9e9e;
+    padding: 25px 45px;
+}
+.count-input .form-control{
+	    height: 45px;
+    border-radius: 0;
+   border: 1px solid #9e9e9e;
+}
+.count-point{
+	    margin-top: 14px;
+    margin-left:30px;
+}
+.coupon .form-group{
+	margin: 0;
+}
+.total-amount h4{
+	padding-bottom: 10px;
+}
+.total-amount{
+	margin-top: 115px;
+}
+.total-amount tbody{
+	    background: #ffff;
+    border: 2px solid #000;
+}
+.total-amount table{
+	margin-top: 20px;
+}
+.total-amount tbody tr{
+	
+}
+.total-amount tbody tr td{
+	    border-top: 2px solid #000;
+    font-size: 22px;
+    font-weight: 600;
+}
+.chack-btn{
+	
+    padding: 12px 20px;
+}
+.check-button{
+	margin-top:40px;
+}
 
 
