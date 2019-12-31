@@ -368,5 +368,36 @@ autoplayHoverPause:true,
  		}
  	});	
 	
-
+	
+	/*------------------------------------------------------------
+    *       Blog-detail-page-with-sidebar
+    * ------------------------------------------------------ */
+	
+	
+	
+	$('.slider-related').owlCarousel({
+ 		loop: true,
+ 		margin: 30,
+		 navText: ["<i class='fas fa-angle-left'></i>", "<i class='fas fa-angle-right'></i>"],
+		 dots:false,
+		nav:true,
+		autoplay:true,
+autoplayTimeout:10000,
+autoplayHoverPause:true,
+		responsive: {
+ 			0: {
+ 				items: 1
+ 			},
+			360:{
+				items: 1
+			},
+ 			600: {
+ 				items:2
+ 			},
+ 			1000: { 
+ 				items: 3
+ 			}	
+ 		}
+ 	});	
+	
 	})(jQuery); 
