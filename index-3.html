@@ -18,7 +18,7 @@
 	<link rel="stylesheet" href="assets/css/magnific-popup.css">
 	<!--owl css-->
 	<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-	<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="assets/css/owl.theme.default.min.css"> 
 	<!--	animate css-->
 	<link rel="stylesheet" href="assets/css/animate.css">
 	<!--	animate css-->
@@ -32,16 +32,21 @@
 </head>
 
 <body >
+<!-- preloader-->
+<div id="preloader">
+		<div id="status">&nbsp;</div>
+	</div>
+<!-- preloader-->
 	<!--  Top Header Start-->
 	<div class="top-header">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-6">
+				<div class="col-lg-6 col-md-6 col-sm-6 col-12">
 			        <div class="top-mail">
 			           <p><i class="far fa-envelope"></i>Email:<a href="mailto:andimpes@gmail.com"> andimpex@gmail.com</a></p>
 			        </div>
 				</div>
-				<div class="col-lg-6">
+				<div class="col-lg-6 col-md-6 col-sm-6 col-12">
 					<div class="top-social-icon">
 						<ul class="top-icon">
 							<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -56,7 +61,7 @@
 						<button type="button" class="close">×</button>
 						<form>
 							<input type="search" value="" placeholder="type keyword(s) here" />
-							<button type="submit" class="btn btn-primary">Search</button>
+							<button type="submit" class="btn btn-theme">Search</button>
 						</form>
 					</div>
 				</div>
@@ -66,7 +71,7 @@
 	<!--  Top Header End-->
 
 	<!-- navber start-->
-	  <header id="top-heder-nav">
+	 <header id="top-heder-nav">
 		<nav class="navbar navbar-expand-lg">
 			<div class="container">
 				<a class="navbar-brand" href="index.html">
@@ -79,11 +84,11 @@
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item dropdown">
 							<a class="nav-link  active" href="#">Home</a>
-							
+
 							<div class="dropdown-content">
 								<a href="index.html">Home 01</a>
 								<a href="index-2.html">Home 02</a>
-								<a href="index-3.html" class="active-2">Home 03</a>
+								<a href="index-3.html"  class="active-2">Home 03</a>
 								<a href="index-4.html">Home 04</a>
 								<a href="index-5.html">Home 05</a>
 								<a href="index-6.html">Home 06</a>
@@ -92,35 +97,40 @@
 						<li class="nav-item dropdown">
 							<a class="nav-link " href="#">Post Types</a>
 							<div class="dropdown-content">
-								<a href="tour-packages.html">Tour-Packages</a>
-								<a href="tour-details.html">Tour-Details</a>
+								<a href="audio-blog-detail.html">Audio</a>
+								<a href="video-blog-detail.html">Video</a>
+								<a href="quote-blog-details.html">Quote</a>
+								<a href="link-blog-details.html">Link</a>
 							</div>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="service.html">Catagories</a>
+							<a class="nav-link" href="category.html">Categories</a>
 						</li>
-						
+
 						<li class="nav-item dropdown">
-							<a class="nav-link" href="#">Tips & Tricks</a>
-							
+							<a class="nav-link" href="#">About</a> 
+
 							<div class="dropdown-content">
-								<a href="blog.html">Blog-Classic</a>
-								<a href="blog-single.html">Blog-single</a>
+								<a href="about-with-sidebar.html">Whit Sidebar</a>
+								<a href="about-whitout-sidebar.html">Whitout Sidebar</a>
 							</div>
 						</li>
 						<li class="nav-item dropdown">
 							<a class="nav-link" href="#">Pages</a>
-							
+
 							<div class="dropdown-content">
-								<a href="about.html">About</a>
-								<a href="faq.html">Faqs</a>
-								<a href="contact.html">Contact</a>
-								<a href="404.html">404 page</a>
+								<a href="blog-details-with-sidebar.html">Blog 01</a>
+								<a href="blog-details-without-sidebar.html">Blog 02</a>
+								<a href="shop.html">Shop</a>
+								<a href="shop-single.html">Shop Single</a>
+								<a href="checkout.html">Checkout</a>
+								<a href="cart.html">Cart</a>
+								<a href="error.html">Error</a>
 							</div>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="gallery.html">Contact </a>
-							
+							<a class="nav-link" href="contact.html">Contact </a>
+
 						</li>
 					</ul>
 				</div>
@@ -133,31 +143,50 @@
 	<section id="blog-banner-3">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-lg-12">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-12 nopadding">
 					<div class="home-tree-banner-slider owl-carousel owl-theme">
 						<div class="slider-item">
-							<div class="inspiration">
-								<h6>inspiration</h6>
-								<h2>Have an obsession with solving the problems</h2>
-								<a href="#" class="btn btn-theme btn-slider-two">Load More</a>
+							<div class="inspiration-slider">
+								 <img src="assets/img/about/7.png" alt="img">
+								 <div class="slider-text-aoe">
+								 	<a href="#" class="btn-theme travel-no">Travel</a>
+								 	<h3>how to Travel in alaska</h3>
+								 	<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit  aliquet. Aenean sollicitudin, lorem quis bibendum auctor, </p>
+								 	<ul>
+								 		<li>BY: <a href="#">Jhon Doe</a></li>
+								 		<li><a href="#">September 11, 2019</a></li>
+								 	</ul>
+								 </div>
 							</div>
 						</div>
-<!--
 						<div class="slider-item">
-							<div class="inspiration">
-								<h6>inspiration</h6>
-								<h2>Have an obsession with solving the problems</h2>
-								<a href="#" class="btn btn-theme btn-slider-two">Load More</a>
+							<div class="inspiration-slider"> 
+								 <img src="assets/img/about/8.png" alt="img">
+								 <div class="slider-text-aoe">
+								 	<a href="#" class="btn-theme travel-no">Travel</a>
+								 	<h3>how to Travel in alaska</h3>
+								 	<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit  aliquet. Aenean sollicitudin, lorem quis bibendum auctor, </p>
+								 	<ul>
+								 		<li>BY: <a href="#">Jhon Doe</a></li>
+								 		<li><a href="#">September 11, 2019</a></li>
+								 	</ul>
+								 </div>
 							</div>
 						</div>
 						<div class="slider-item">
-							<div class="inspiration">
-								<h6>inspiration</h6>
-								<h2>Have an obsession with solving the problems</h2>
-								<a href="#" class="btn btn-theme btn-slider-two">Load More</a>
+							<div class="inspiration-slider">
+								 <img src="assets/img/about/9.png" alt="img">
+								 <div class="slider-text-aoe">
+								 	<a href="#" class="btn-theme travel-no">Travel</a>
+								 	<h3>how to Travel in alaska</h3>
+								 	<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit  aliquet. Aenean sollicitudin, lorem quis bibendum auctor, </p>
+								 	<ul>
+								 		<li>BY: <a href="#">Jhon Doe</a></li>
+								 		<li><a href="#">September 11, 2019</a></li>
+								 	</ul>
+								 </div>
 							</div>
 						</div>
--->
 					</div>
 				</div>	
 
@@ -170,38 +199,38 @@
 	<section id="icon-all-wrapper">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-2">
-					<div class="icon-wrapper">
+				<div class="col-lg-2 col-md-3 col-sm-6 col-12">
+					<div class="icon-wrapper smaill-device">
 						<i class="glyph-icon flaticon-quality"></i>
 						<h6>Fashion</h6>
 					</div>
 				</div>
-				<div class="col-lg-2">
+				<div class="col-lg-2 col-md-3 col-sm-6 col-12">
 					<div class="icon-wrapper">
 						<i class="glyph-icon flaticon-sports-and-competition"></i>
 						<h6>Sports</h6>
 					</div>
 				</div>
-				<div class="col-lg-2">
-					<div class="icon-wrapper">
+				<div class="col-lg-2 col-md-3 col-sm-6 col-12">
+					<div class="icon-wrapper mar-icon">
 						<i class="glyph-icon flaticon-video-camera"></i>
 						<h6>Entertainment</h6>
 					</div>
 				</div>
-				<div class="col-lg-2">
-					<div class="icon-wrapper">
+				<div class="col-lg-2 col-md-3 col-sm-6 col-12">
+					<div class="icon-wrapper mar-icon">
 						<i class="glyph-icon flaticon-dish"></i>
 						<h6>Food</h6>
 					</div>
 				</div>
-				<div class="col-lg-2">
-					<div class="icon-wrapper">
+				<div class="col-lg-2 col-md-3 col-sm-6 col-12">
+					<div class="icon-wrapper hoke">
 						<i class="glyph-icon flaticon-around"></i>
 						<h6>Travel</h6>
 					</div>
 				</div>
-				<div class="col-lg-2">
-					<div class="icon-wrapper">
+				<div class="col-lg-2 col-md-3 col-sm-6 col-12">
+					<div class="icon-wrapper hoke">
 						<i class="glyph-icon flaticon-money"></i>
 						<h6>Business</h6>
 					</div>
@@ -216,8 +245,8 @@
 	<!-- main content start-->
 	<section id="blog-main-content-two">
 		<div class="container">
-			<div class="row">
-				<div class="col-lg-8">
+			<div class="row"> 
+				<div class="col-lg-8 col-md-12 col-sm-12 col-12">
 					<div class="home-two-blog-widget-heading">
 						<h4 class="blog-heading-border">Recent Post</h4>
 					</div>
@@ -258,7 +287,7 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-lg-6">
+						<div class="col-lg-6 col-md-6 col-sm-12 col-12">
 							<div class="blog-two-widget margin-top-60">
 								<div class="blog-two-widge-img">
 									<img src="assets/img/blog-banner/tour-1.png" alt="img">
@@ -294,7 +323,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-6">
+						<div class="col-lg-6 col-md-6 col-sm-12 col-12">
 							<div class="blog-two-widget margin-top-60">
 								<div class="blog-two-widge-img">
 									<img src="assets/img/blog-banner/tour-2.png" alt="img">
@@ -340,7 +369,7 @@
 					</div>
 
 					<div class="row">
-						<div class="col-lg-6">
+						<div class="col-lg-6 col-md-6 col-sm-12 col-12">
 							<div class="blog-post home-tree-blog">
 								<div class="blog-post-img">
 									<img src="assets/img/blog-banner/blog-1.png" alt="img">
@@ -360,7 +389,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-6">
+						<div class="col-lg-6 col-md-6 col-sm-12 col-12">
 							<div class="blog-post home-tree-blog">
 								<div class="blog-post-img">
 									<img src="assets/img/blog-banner/food.png" alt="img">
@@ -380,7 +409,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-6">
+						<div class="col-lg-6 col-md-6 col-sm-12 col-12">
 							<div class="blog-post home-tree-blog">
 								<div class="blog-post-img">
 									<img src="assets/img/blog-banner/res-1.png" alt="img">
@@ -400,7 +429,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-6">
+						<div class="col-lg-6 col-md-6 col-sm-12 col-12">
 							<div class="blog-post home-tree-blog">
 								<div class="blog-post-img">
 									<img src="assets/img/blog-banner/res-2.png" alt="img">
@@ -426,7 +455,7 @@
 					</div>
 
 				</div>
-				<div class="col-lg-4">
+				<div class="col-lg-4 col-md-12 col-sm-12 col-12">
 					<div class="sidebar-widget margin-top-60">
 						<div class="widget widget-search">
 							<form>
@@ -586,7 +615,7 @@
 		<div class="footer-follow">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-10 offset-md-1">
+					<div class="col-lg-10 offset-lg-1 col-md-12 col-sm-12 col-12">
 						<div class="follow-wedgit">
 							<div class="follow-heading">
 								<h4>FOLLOW US</h4>
@@ -624,7 +653,7 @@
 			<div class="copy-right-area">
 				<div class="container">
 					<div class="row">
-					<div class="col-lg-12">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-12">
 						<div class="footer-copy">
 							<div class="copy-list">
 								<ul>
@@ -684,6 +713,40 @@
 
 	<!-- custom-->
 	<script src="assets/js/custom.js"></script>
+	
+	
+	
+	 <script>
+	jQuery(document).ready(function($) {
+        		"use strict";
+        		//  TESTIMONIALS CAROUSEL HOOK
+		        $('.home-tree-banner-slider').owlCarousel({
+		            loop: true,
+		            center: true,
+		            items: 3,
+		            margin: 10,
+		            autoplay: true,
+		            dots:false,
+		            autoplayTimeout: 8500,
+		            smartSpeed: 450,
+		            responsive: {
+		              0: {
+		                items: 1
+		              },
+		              768: {
+		                items: 1
+		              },
+		              1170: {
+		                items: 3
+		              },
+		              1200: {
+		                items: 2
+		              }
+		            }
+		        });
+        	});
+	
+	</script>
 	
 
 </body>

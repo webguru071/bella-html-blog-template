@@ -52,6 +52,12 @@ autoplayHoverPause:true,
  			600: {
  				items:2
  			},
+			1920: {
+ 				items:4
+ 			},
+			1200: {
+ 				items:3
+ 			},
  			1000: { 
  				items: 4
  			}	
@@ -113,7 +119,7 @@ autoplayHoverPause:true,
 				items: 1
 			},
  			600: {
- 				items:2
+ 				items:1
  			},
  			1000: { 
  				items: 1
@@ -146,7 +152,7 @@ autoplayHoverPause:true,
 				items: 1
 			},
  			600: {
- 				items:2
+ 				items:1
  			},
  			1000: { 
  				items: 1
@@ -205,10 +211,10 @@ autoplayHoverPause:true,
  				items: 1
  			},
 			360:{
-				items: 1
+				items: 2
 			},
  			600: {
- 				items:1
+ 				items:2
  			},
  			1000: { 
  				items: 4
@@ -222,31 +228,31 @@ autoplayHoverPause:true,
     * ------------------------------------------------------ */
 	
 	
-	
-	$('.home-tree-banner-slider').owlCarousel({
- 		loop: true,
- 		margin: 10,
-		 navText: ["<i class='fas fa-angle-left'></i>", "<i class='fas fa-angle-right'></i>"],
-		 dots:false,
-		nav:true,
-		autoplay:true,
-autoplayTimeout:2000,
-autoplayHoverPause:true,
-		responsive: {
- 			0: {
- 				items: 1
- 			},
-			360:{
-				items: 1
-			},
- 			600: {
- 				items:1
- 			},
- 			1000: { 
- 				items: 3
- 			}	
- 		}
- 	});
+//	
+//	$('.home-tree-banner-slider').owlCarousel({
+// 		loop: true,
+// 		margin: 10,
+//		 navText: ["<i class='fas fa-angle-left'></i>", "<i class='fas fa-angle-right'></i>"],
+//		 dots:false,
+//		nav:true,
+//		autoplay:true,
+//autoplayTimeout:2000,
+//autoplayHoverPause:true,
+//		responsive: {
+// 			0: {
+// 				items: 1
+// 			},
+//			360:{
+//				items: 1
+//			},
+// 			600: {
+// 				items:1
+// 			},
+// 			1000: { 
+// 				items: 3
+// 			}	
+// 		}
+// 	});
 	
 	
 	
@@ -331,7 +337,7 @@ autoplayHoverPause:true,
 				items: 1
 			},
  			600: {
- 				items:1
+ 				items:2
  			},
  			1000: { 
  				items: 2
@@ -360,7 +366,7 @@ autoplayHoverPause:true,
 				items: 1
 			},
  			600: {
- 				items:1
+ 				items:2
  			},
  			1000: { 
  				items: 3
@@ -400,11 +406,17 @@ autoplayHoverPause:true,
  		}
  	});	
 	
+	$(window).on('load', function () {
+ 		$('#status').fadeOut();
+ 		$('#preloader').delay(350).fadeOut('slow');
+ 	});
 	/*------------------------------------------------------------
     *    Image Magnifier Glass active
     * ------------------------------------------------------ */	
 
 magnify("myimage", 5);
+	
+	
 
 	
 	
