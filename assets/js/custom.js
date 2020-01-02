@@ -49,7 +49,7 @@ autoplayHoverPause:true,
 			360:{
 				items: 1
 			},
- 			600: {
+ 			576: {
  				items:2
  			},
 			1920: {
@@ -58,8 +58,8 @@ autoplayHoverPause:true,
 			1200: {
  				items:3
  			},
- 			1000: { 
- 				items: 4
+ 			992: { 
+ 				items: 2
  			}	
  		}
 		

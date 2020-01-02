@@ -526,6 +526,19 @@ Tags:
 	.total-amount {
     margin-top: 60px;
 }
+	.blog-banner-link h4 {
+    margin-top: 18px;
+    font-size: 14px;
+}
+	.blog-banner-link {
+     
+    top: 65%;
+    left: 10px;
+}
+	.blog-banner-author li a {
+    color: #fff;
+    font-size: 12px;
+}
 }
 
 /*----------------------------------------------
@@ -1321,6 +1334,12 @@ Tags:
 	.error-text h3 {
     font-size: 21px;
     margin-top: 15px;
+}
+	.blog-slider-two .owl-next i {
+    bottom: 90px;
+}
+	.blog-slider-two .owl-prev i {
+    bottom: 90px;
 }
 }
 
