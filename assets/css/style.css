@@ -4091,7 +4091,12 @@ font-size: 18px;
 .side-img-arooe{
 	overflow: hidden;
 }
-
+.blog-home-widget-img iframe{
+	width: 100%;
+	height:166px;
+	 scroll-behavior: none;
+	border: none;
+}
 
  /*----------------------------
    20. preloder
