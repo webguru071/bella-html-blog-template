@@ -123,6 +123,7 @@ Tags:
 	
 #top-heder-nav .navbar-nav {
      padding: 40px 0;
+	overflow: hidden;
 }
 	.dropdown-content {
     left: 100px;
@@ -229,6 +230,10 @@ Tags:
 	.first-info{
 		margin-top: 50px;
 	}
+	.top-mail p img {
+    width: 6%;
+    margin-right: 10px;
+}
 }
 /*--------------------------------------------------
  		mobile,iphone
@@ -265,6 +270,7 @@ Tags:
 	
 #top-heder-nav .navbar-nav {
      padding: 40px 0;
+	overflow: hidden;
 }
 	.dropdown-content {
     left: 100px;
@@ -539,6 +545,10 @@ Tags:
     color: #fff;
     font-size: 12px;
 }
+	.top-mail p img {
+    width: 6%;
+    margin-right: 10px;
+}
 }
 
 /*----------------------------------------------
@@ -576,6 +586,7 @@ Tags:
 	
 #top-heder-nav .navbar-nav {
      padding: 40px 0;
+	overflow: hidden;
 }
 	.dropdown-content {
     left: 100px;
@@ -922,6 +933,7 @@ Tags:
 	
 #top-heder-nav .navbar-nav {
      padding: 40px 0;
+	overflow: hidden;
 }
 	.dropdown-content {
     left: 100px;
@@ -1378,6 +1390,7 @@ Tags:
 	
 #top-heder-nav .navbar-nav {
      padding: 40px 0;
+	overflow: hidden;
 }
 	.dropdown-content {
     left: 100px;
