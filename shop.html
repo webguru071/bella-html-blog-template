@@ -17,6 +17,8 @@
 	<link rel="stylesheet" href="assets/css/reset.css">
 	<!--magnific-popup.cs-->
 	<link rel="stylesheet" href="assets/css/magnific-popup.css">
+		<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.3/themes/hot-sneaks/jquery-ui.css" />
+
 	<!--owl css-->
 	<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
 	<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
@@ -57,11 +59,11 @@
 				<div class="col-lg-6 col-md-6 col-sm-6 col-12">
 					<div class="top-social-icon">
 						<ul class="top-icon">
-							<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-							<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-							<li><a href="#"><i class="fas fa-rss"></i></a></li>
-							<li><a href="#"><i class="fab fa-tumblr"></i></a></li>
-							<li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+							<li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
+							<li><a href="https://www.a2hosting.com/RSS-hosting?gclid=CjwKCAiA0svwBRBhEiwAHqKjFlDYCHf7wwRMefN4ieH_pbez-xC5hyfS-Bx3ayGs66GIL95kb1iOThoC7SIQAvD_BwE"><i class="fas fa-rss" target="_blank"></i></a></li>
+							<li><a href="https://www.tumblr.com/login" target="_blank"><i class="fab fa-tumblr"></i></a></li>
+							<li><a href="https://www.google.com/" target="_blank"><i class="fab fa-google-plus-g"></i></a></li>
 							<li><a href="#search"><i class="fas fa-search"></i></a></li>
 						</ul>
 					</div>
@@ -154,7 +156,7 @@
 					<div class="shop-banner-text">
 						<h4>shop now</h4>
 						<ul>
-							<li><a href="#">Home</a><i class="fas fa-angle-right"></i></li>
+							<li><a href="index.html">Home</a><i class="fas fa-angle-right"></i></li>
 							<li><a href="#">Shop</a></li>
 						</ul>
 					</div>
@@ -183,13 +185,10 @@
 						<div class="widget range">
 							<h3 class="widget-title">Filter by price</h3>
 							<div class="range-slider">
-								<div class="range-slider-line">
-									<span></span>
-								</div>
-								<div class="range-text">
-									<p>$0</p>
-									<p>$2500</p>
-								</div>
+								<div id="mySlider"></div>
+								<p>
+									<input type="text" id="price">
+								</p>
 							</div>
 						</div>
 						<div class="widget  widget-post-area catagories-last">
@@ -197,22 +196,22 @@
 							<div class="catagories-item">
 								<ul>
 									<li>
-										<a href="#">Shoes<span>(28)</span></a>
+										<a href="category.html">Shoes<span>(28)</span></a>
 									</li>
 									<li>
-										<a href="#">caps <span>(95)</span></a>
+										<a href="category.html">caps <span>(95)</span></a>
 									</li>
 									<li>
-										<a href="#">accessories<span>(65)</span></a>
+										<a href="category.html">accessories<span>(65)</span></a>
 									</li>
 									<li>
-										<a href="#">Music<span>(49)</span></a>
+										<a href="category.html">Music<span>(49)</span></a>
 									</li>
 									<li>
-										<a href="#">Travel <span>(98)</span></a>
+										<a href="category.html">Travel <span>(98)</span></a>
 									</li>
 									<li>
-										<a href="#">fashion <span>(25)</span></a>
+										<a href="category.html">fashion <span>(25)</span></a>
 									</li>
 								</ul>
 							</div>
@@ -224,37 +223,37 @@
 
 							<ul>
 								<li>
-									<a href="#">
+									<a href="shop-single.html">
 										<img src="assets/img/shop/sidebar/1.png" alt="image">
 									</a>
 
-									<h5><a href="#">Headd phone</a></h5>
+									<h5><a href="shop-single.html">Headd phone</a></h5>
 									<p class="date">$ 12.00</p>
 								</li>
 
 								<li>
-									<a href="#">
+									<a href="shop-single.html">
 										<img src="assets/img/shop/sidebar/2.png" alt="image">
 									</a>
 
-									<h5><a href="#">water ketly</a></h5>
+									<h5><a href="shop-single.html">water ketly</a></h5>
 									<p class="date">$ 12.009</p>
 								</li>
 
 								<li>
-									<a href="#">
+									<a href="shop-single.html">
 										<img src="assets/img/shop/sidebar/3.png" alt="image">
 									</a>
 
-									<h5><a href="#">men’s shoe</a></h5>
+									<h5><a href="shop-single.html">men’s shoe</a></h5>
 									<p class="date">$ 12.00</p>
 								</li>
 								<li>
-									<a href="#">
+									<a href="shop-single.html">
 										<img src="assets/img/shop/sidebar/4.png" alt="image">
 									</a>
 
-									<h5><a href="#">joystick</a></h5>
+									<h5><a href="shop-single.html">joystick</a></h5>
 									<p class="date">$ 12.00</p>
 								</li>
 
@@ -279,10 +278,10 @@
 								<form action="#"  id="product-search">
 								<div class="form-group">
 									 <select class="form-control">
-									 	<option>NEWWST</option>
-									 	<option>NEWWST</option>
-									 	<option>NEWWST</option>
-									 	<option>NEWWST</option>
+									 	<option>Newest</option>
+									 	<option>Camera</option>
+									 	<option>Water Ketly</option>
+									 	<option>Men’s Shoe</option>
 									 </select>
 									 <div class="area-icon">
 									 	<i class="fas fa-angle-down"></i>
@@ -305,17 +304,17 @@
 							<div class="col-lg-4 col-md-4 col-sm-6 col-12">
 								<div class="product-wedget margin-top-60">
 									<div class="product-img">
-										<a href="#"><img src="assets/img/shop/item/1.png" alt="img"></a>
+										<a href="shop-single.html"><img src="assets/img/shop/item/1.png" alt="img"></a>
 										 <div class="product-hover">
 										 	<div class="icon-cart">
-										 		<a href="#"><i class="fas fa-cart-plus"></i></a>
+										 		<a href="shop-single.html"><i class="fas fa-cart-plus"></i></a>
 										 		<a href="#"><i class="fas fa-heart"></i></a>
 										 	</div>
 										 </div>
 									</div>
 									<div class="product-price text-center">
 										<div class="price-hed">
-											<h4><a href="#">Men’s Shoe</a></h4>
+											<h4><a href="shop-single.html">Men’s Shoe</a></h4>
 										</div>
 										<div class="pricing-main">
 											<span><del>$18.00</del></span>
@@ -327,17 +326,17 @@
 							<div class="col-lg-4 col-md-4 col-sm-6 col-12">
 								<div class="product-wedget margin-top-60">
 									<div class="product-img">
-										<a href="#"><img src="assets/img/shop/item/2.png" alt="img"></a>
+										<a href="shop-single.html"><img src="assets/img/shop/item/2.png" alt="img"></a>
 										 <div class="product-hover">
 										 	<div class="icon-cart">
-										 		<a href="#"><i class="fas fa-cart-plus"></i></a>
+										 		<a href="shop-single.html"><i class="fas fa-cart-plus"></i></a>
 										 		<a href="#"><i class="fas fa-heart"></i></a>
 										 	</div>
 										 </div>
 									</div>
 									<div class="product-price text-center">
 										<div class="price-hed">
-											<h4><a href="#">Camera</a></h4>
+											<h4><a href="shop-single.html">Camera</a></h4>
 										</div>
 										<div class="pricing-main">
 											<span><del>$18.00</del></span>
@@ -349,17 +348,17 @@
 							<div class="col-lg-4 col-md-4 col-sm-6 col-12">
 								<div class="product-wedget margin-top-60">
 									<div class="product-img">
-										<a href="#"><img src="assets/img/shop/item/3.png" alt="img"></a>
+										<a href="shop-single.html"><img src="assets/img/shop/item/3.png" alt="img"></a>
 										 <div class="product-hover">
 										 	<div class="icon-cart">
-										 		<a href="#"><i class="fas fa-cart-plus"></i></a>
+										 		<a href="shop-single.html"><i class="fas fa-cart-plus"></i></a>
 										 		<a href="#"><i class="fas fa-heart"></i></a>
 										 	</div>
 										 </div>
 									</div>
 									<div class="product-price text-center">
 										<div class="price-hed">
-											<h4><a href="#">Men’s Shoe</a></h4>
+											<h4><a href="shop-single.html">Men’s Shoe</a></h4>
 										</div>
 										<div class="pricing-main">
 											<span><del>$18.00</del></span>
@@ -371,17 +370,17 @@
 							<div class="col-lg-4 col-md-4 col-sm-6 col-12">
 								<div class="product-wedget margin-top-30">
 									<div class="product-img">
-										<a href="#"><img src="assets/img/shop/item/4.png" alt="img"></a>
+										<a href="shop-single.html"><img src="assets/img/shop/item/4.png" alt="img"></a>
 										 <div class="product-hover">
 										 	<div class="icon-cart">
-										 		<a href="#"><i class="fas fa-cart-plus"></i></a>
+										 		<a href="shop-single.html"><i class="fas fa-cart-plus"></i></a>
 										 		<a href="#"><i class="fas fa-heart"></i></a>
 										 	</div>
 										 </div>
 									</div>
 									<div class="product-price text-center">
 										<div class="price-hed">
-											<h4><a href="#">Head Phone</a></h4>
+											<h4><a href="shop-single.html">Head Phone</a></h4>
 										</div>
 										<div class="pricing-main">
 											<span><del>$18.00</del></span>
@@ -393,17 +392,17 @@
 							<div class="col-lg-4 col-md-4 col-sm-6 col-12">
 								<div class="product-wedget margin-top-30">
 									<div class="product-img">
-										<a href="#"><img src="assets/img/shop/item/1.png" alt="img"></a>
+										<a href="shop-single.html"><img src="assets/img/shop/item/1.png" alt="img"></a>
 										 <div class="product-hover">
 										 	<div class="icon-cart">
-										 		<a href="#"><i class="fas fa-cart-plus"></i></a>
+										 		<a href="shop-single.html"><i class="fas fa-cart-plus"></i></a>
 										 		<a href="#"><i class="fas fa-heart"></i></a>
 										 	</div>
 										 </div>
 									</div>
 									<div class="product-price text-center">
 										<div class="price-hed">
-											<h4><a href="#">Men’s Shoe</a></h4>
+											<h4><a href="shop-single.html">Men’s Shoe</a></h4>
 										</div>
 										<div class="pricing-main">
 											<span><del>$18.00</del></span>
@@ -415,17 +414,17 @@
 							<div class="col-lg-4 col-md-4 col-sm-6 col-12">
 								<div class="product-wedget margin-top-30">
 									<div class="product-img">
-										<a href="#"><img src="assets/img/shop/item/2.png" alt="img"></a>
+										<a href="shop-single.html"><img src="assets/img/shop/item/2.png" alt="img"></a>
 										 <div class="product-hover">
 										 	<div class="icon-cart">
-										 		<a href="#"><i class="fas fa-cart-plus"></i></a>
+										 		<a href="shop-single.html"><i class="fas fa-cart-plus"></i></a>
 										 		<a href="#"><i class="fas fa-heart"></i></a>
 										 	</div>
 										 </div>
 									</div>
 									<div class="product-price text-center">
 										<div class="price-hed">
-											<h4><a href="#">Camera</a></h4>
+											<h4><a href="shop-single.html">Camera</a></h4>
 										</div>
 										<div class="pricing-main">
 											<span><del>$18.00</del></span>
@@ -437,17 +436,17 @@
 							<div class="col-lg-4 col-md-4 col-sm-6 col-12">
 								<div class="product-wedget margin-top-30">
 									<div class="product-img">
-										<a href="#"><img src="assets/img/shop/item/5.png" alt="img"></a>
+										<a href="shop-single.html"><img src="assets/img/shop/item/5.png" alt="img"></a>
 										 <div class="product-hover">
 										 	<div class="icon-cart">
-										 		<a href="#"><i class="fas fa-cart-plus"></i></a>
+										 		<a href="shop-single.html"><i class="fas fa-cart-plus"></i></a>
 										 		<a href="#"><i class="fas fa-heart"></i></a>
 										 	</div>
 										 </div>
 									</div>
 									<div class="product-price text-center">
 										<div class="price-hed">
-											<h4><a href="#">Water Ketly</a></h4>
+											<h4><a href="shop-single.html">Water Ketly</a></h4>
 										</div>
 										<div class="pricing-main">
 											<span><del>$18.00</del></span>
@@ -459,17 +458,17 @@
 							<div class="col-lg-4 col-md-4 col-sm-6 col-12">
 								<div class="product-wedget margin-top-30">
 									<div class="product-img">
-										<a href="#"><img src="assets/img/shop/item/1.png" alt="img"></a>
+										<a href="shop-single.html"><img src="assets/img/shop/item/1.png" alt="img"></a>
 										 <div class="product-hover">
 										 	<div class="icon-cart">
-										 		<a href="#"><i class="fas fa-cart-plus"></i></a>
+										 		<a href="shop-single.html"><i class="fas fa-cart-plus"></i></a>
 										 		<a href="#"><i class="fas fa-heart"></i></a>
 										 	</div>
 										 </div>
 									</div>
 									<div class="product-price text-center">
 										<div class="price-hed">
-											<h4><a href="#">Men’s Shoe</a></h4>
+											<h4><a href="shop-single.html">Men’s Shoe</a></h4>
 										</div>
 										<div class="pricing-main">
 											<span><del>$18.00</del></span>
@@ -481,17 +480,17 @@
 							<div class="col-lg-4 col-md-4 col-sm-6 col-12">
 								<div class="product-wedget margin-top-30">
 									<div class="product-img">
-										<a href="#"><img src="assets/img/shop/item/4.png" alt="img"></a>
+										<a href="shop-single.html"><img src="assets/img/shop/item/4.png" alt="img"></a>
 										 <div class="product-hover">
 										 	<div class="icon-cart">
-										 		<a href="#"><i class="fas fa-cart-plus"></i></a>
+										 		<a href="shop-single.html"><i class="fas fa-cart-plus"></i></a>
 										 		<a href="#"><i class="fas fa-heart"></i></a>
 										 	</div>
 										 </div>
 									</div>
 									<div class="product-price text-center">
 										<div class="price-hed">
-											<h4><a href="#">Head Phone</a></h4>
+											<h4><a href="shop-single.html">Head Phone</a></h4>
 										</div>
 										<div class="pricing-main">
 											<span><del>$18.00</del></span>
@@ -503,17 +502,17 @@
 							<div class="col-lg-4 col-md-4 col-sm-6 col-12">
 								<div class="product-wedget margin-top-30">
 									<div class="product-img">
-										<a href="#"><img src="assets/img/shop/item/1.png" alt="img"></a>
+										<a href="shop-single.html"><img src="assets/img/shop/item/1.png" alt="img"></a>
 										 <div class="product-hover">
 										 	<div class="icon-cart">
-										 		<a href="#"><i class="fas fa-cart-plus"></i></a>
+										 		<a href="shop-single.html"><i class="fas fa-cart-plus"></i></a>
 										 		<a href="#"><i class="fas fa-heart"></i></a>
 										 	</div>
 										 </div>
 									</div>
 									<div class="product-price text-center">
 										<div class="price-hed">
-											<h4><a href="#">Men’s Shoe</a></h4>
+											<h4><a href="shop-single.html">Men’s Shoe</a></h4>
 										</div>
 										<div class="pricing-main">
 											<span><del>$18.00</del></span>
@@ -525,17 +524,17 @@
 							<div class="col-lg-4 col-md-4 col-sm-6 col-12">
 								<div class="product-wedget margin-top-30">
 									<div class="product-img">
-										<a href="#"><img src="assets/img/shop/item/2.png" alt="img"></a>
+										<a href="shop-single.html"><img src="assets/img/shop/item/2.png" alt="img"></a>
 										 <div class="product-hover">
 										 	<div class="icon-cart">
-										 		<a href="#"><i class="fas fa-cart-plus"></i></a>
+										 		<a href="shop-single.html"><i class="fas fa-cart-plus"></i></a>
 										 		<a href="#"><i class="fas fa-heart"></i></a>
 										 	</div>
 										 </div>
 									</div>
 									<div class="product-price text-center">
 										<div class="price-hed">
-											<h4><a href="#">Camera</a></h4>
+											<h4><a href="shop-single.html">Camera</a></h4>
 										</div>
 										<div class="pricing-main">
 											<span><del>$18.00</del></span>
@@ -547,17 +546,17 @@
 							<div class="col-lg-4 col-md-4 col-sm-6 col-12">
 								<div class="product-wedget margin-top-30">
 									<div class="product-img">
-										<a href="#"><img src="assets/img/shop/item/3.png" alt="img"></a>
+										<a href="shop-single.html"><img src="assets/img/shop/item/3.png" alt="img"></a>
 										 <div class="product-hover">
 										 	<div class="icon-cart">
-										 		<a href="#"><i class="fas fa-cart-plus"></i></a>
+										 		<a href="shop-single.html"><i class="fas fa-cart-plus"></i></a>
 										 		<a href="#"><i class="fas fa-heart"></i></a>
 										 	</div>
 										 </div>
 									</div>
 									<div class="product-price text-center">
 										<div class="price-hed">
-											<h4><a href="#">joystick</a></h4>
+											<h4><a href="shop-single.html">joystick</a></h4>
 										</div>
 										<div class="pricing-main">
 											<span><del>$18.00</del></span>
@@ -569,17 +568,17 @@
 							<div class="col-lg-4 col-md-4 col-sm-6 col-12">
 								<div class="product-wedget margin-top-30">
 									<div class="product-img">
-										<a href="#"><img src="assets/img/shop/item/1.png" alt="img"></a>
+										<a href="shop-single.html"><img src="assets/img/shop/item/1.png" alt="img"></a>
 										 <div class="product-hover">
 										 	<div class="icon-cart">
-										 		<a href="#"><i class="fas fa-cart-plus"></i></a>
+										 		<a href="shop-single.html"><i class="fas fa-cart-plus"></i></a>
 										 		<a href="#"><i class="fas fa-heart"></i></a>
 										 	</div>
 										 </div>
 									</div>
 									<div class="product-price text-center">
 										<div class="price-hed">
-											<h4><a href="#">Men’s Shoe</a></h4>
+											<h4><a href="shop-single.html">Men’s Shoe</a></h4>
 										</div>
 										<div class="pricing-main">
 											<span><del>$18.00</del></span>
@@ -591,17 +590,17 @@
 							<div class="col-lg-4 col-md-4 col-sm-6 col-12">
 								<div class="product-wedget margin-top-30">
 									<div class="product-img">
-										<a href="#"><img src="assets/img/shop/item/2.png" alt="img"></a>
+										<a href="shop-single.html"><img src="assets/img/shop/item/2.png" alt="img"></a>
 										 <div class="product-hover">
 										 	<div class="icon-cart">
-										 		<a href="#"><i class="fas fa-cart-plus"></i></a>
+										 		<a href="shop-single.html"><i class="fas fa-cart-plus"></i></a>
 										 		<a href="#"><i class="fas fa-heart"></i></a>
 										 	</div>
 										 </div>
 									</div>
 									<div class="product-price text-center">
 										<div class="price-hed">
-											<h4><a href="#">Camera</a></h4>
+											<h4><a href="shop-single.html">Camera</a></h4>
 										</div>
 										<div class="pricing-main">
 											<span><del>$18.00</del></span>
@@ -613,17 +612,17 @@
 							<div class="col-lg-4 col-md-4 col-sm-6 col-12">
 								<div class="product-wedget margin-top-30">
 									<div class="product-img">
-										<a href="#"><img src="assets/img/shop/item/5.png" alt="img"></a>
+										<a href="shop-single.html"><img src="assets/img/shop/item/5.png" alt="img"></a>
 										 <div class="product-hover">
 										 	<div class="icon-cart">
-										 		<a href="#"><i class="fas fa-cart-plus"></i></a>
+										 		<a href="shop-single.html"><i class="fas fa-cart-plus"></i></a>
 										 		<a href="#"><i class="fas fa-heart"></i></a>
 										 	</div>
 										 </div>
 									</div>
 									<div class="product-price text-center">
 										<div class="price-hed">
-											<h4><a href="#">Water Ketly</a></h4>
+											<h4><a href="shop-single.html">Water Ketly</a></h4>
 										</div>
 										<div class="pricing-main">
 											<span><del>$18.00</del></span>
@@ -665,27 +664,27 @@
 							</div>
 							<div class="follow-icon">
 								<div class="follow-icon-wedgit">
-									<a href="#"><i class="fab fa-twitter"></i></a>
+									<a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
 									<h6>TWITTER</h6>
 								</div>
 								<div class="follow-icon-wedgit">
-									<a href="#"><i class="fab fa-facebook"></i></a>
+									<a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
 									<h6>FACEBOOK</h6>
 								</div>
 								<div class="follow-icon-wedgit">
-									<a href="#"><i class="fab fa-instagram"></i></a>
+									<a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
 									<h6>INSTAGRAM</h6>
 								</div>
 								<div class="follow-icon-wedgit">
-									<a href="#"><i class="fab fa-behance"></i></a>
+									<a href="https://www.behance.net/" target="_blank"><i class="fab fa-behance"></i></a>
 									<h6>BEHANCE</h6>
 								</div>
 								<div class="follow-icon-wedgit">
-									<a href="#"><i class="fab fa-youtube"></i></a>
+									<a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
 									<h6>YOUTUBE</h6>
 								</div>
 								<div class="follow-icon-wedgit">
-									<a href="#"><i class="fab fa-pinterest"></i></a>
+									<a href="https://www.pinterest.com/"  target="_blank"><i class="fab fa-pinterest"></i></a>
 									<h6>PINTEREST</h6>
 								</div>
 							</div>
@@ -701,18 +700,18 @@
 								<div class="copy-list">
 									<ul>
 										<li>
-											<a href="#">Home</a>
+											<a href="index.html">Home</a>
 										</li>
 										<li>
-											<a href="#">About</a>
+											<a href="about-with-sidebar.html">About</a>
 										</li>
 										<li>
-											<a href="#">Contact</a>
+											<a href="contact.html">Contact</a>
 										</li>
 									</ul>
 								</div>
 								<div class="footer-logo">
-									<a href="#"><img src="assets/img/logo.png" alt="logo"></a>
+									<a href="index.html"><img src="assets/img/logo.png" alt="logo"></a>
 								</div>
 								<div class="copy-text">
 									<p>© <a href="#">And IT Themes </a>2019. All Rights Reserved</p>
@@ -751,12 +750,31 @@
 
 	<!-- respondl-->
 	<script src="assets/js/respond.min.js"></script>
+	<script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
 
 	<!-- prettifyl-->
 	<script src="assets/js/prettify.js"></script>
 
 	<!-- custom-->
 	<script src="assets/js/custom.js"></script>
+	
+	<script>
+        $(document).ready(function() {
+        $( "#mySlider" ).slider({
+          range: true,
+          min: 10,
+          max: 999,
+          values: [ 200, 500 ],
+          slide: function( event, ui ) {
+         $( "#price" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+         }
+      });
+          
+      $( "#price" ).val( "$" + $( "#mySlider" ).slider( "values", 0 ) +
+               " - $" + $( "#mySlider" ).slider( "values", 1 ) );
+          
+        });
+    </script>
 
 
 </body>
