@@ -3102,6 +3102,11 @@ margin-top: 15px;
 .blog-wed-get-heading h3 a:hover{
 	color: var(--theme-color);
 }
+.ani-mate h3{
+	font-size: 28px;
+    font-weight: 700;
+	text-transform: uppercase;
+}
 .blog-author-details-wedget{
 	    color: #313131;
     font-size: 18px;
@@ -3125,6 +3130,13 @@ margin-top: 15px;
 	width: 100%;
 	position: relative;
 	margin-top: 20px;
+}
+.last-aarow{
+	color: #fff;
+	transition: .4s all;
+} 
+.last-aarow:hover{
+	color: var(--theme-color);
 }
 .line-after:after{
 	content: "";
@@ -3553,7 +3565,9 @@ margin-top: 15px;
 	width: 100%;
     margin-top: 25px;
 }
-
+.blog-home-widget-img iframe{
+	
+}
 /*-----------------------------------
               Shop-page
  * -----------------------------------*/
