@@ -65,6 +65,16 @@ autoplayHoverPause:true,
 		
  	});
 	
+$(function () {
+    $(".asd").slice(0, 0).show();
+    $("#loadMore").on('click', function (e) {
+        e.preventDefault();
+        $(".asd:hidden").slice(0, 1).slideDown();
+        if ($(".asd:hidden").length == 0) {
+            $("#load").fadeOut('slow');
+        }
+    });
+});
 	
 	
  /*------------------------------------------------------------
